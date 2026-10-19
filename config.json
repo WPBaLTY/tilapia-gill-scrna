@@ -1,0 +1,2865 @@
+{
+  "counts_qc": {
+    "min_genes": 200,
+    "nmads": 3.0,
+    "expected_doublet_rate": 0.06,
+    "random_seed": 20260811,
+    "min_cells_per_gene": 3
+  },
+  "profiles": {
+    "recovered-kegg": {
+      "task": "recovered-kegg",
+      "description": "Current strict bidirectional GeneID/NCBI-Ensembl profile with the exact frozen request/response cache.",
+      "inputs": {}
+    }
+  },
+  "contracts": {
+    "oxphos_identity": {
+      "schema_version": 1,
+      "module": "OXPHOS_consensus_103",
+      "cell_type": "ionocyte",
+      "route": "gprofiler",
+      "term": "KEGG:00190",
+      "contrasts": [
+        "24_vs_0",
+        "96_vs_0",
+        "96_vs_24"
+      ],
+      "fixed_members": [
+        "LOC100689881",
+        "LOC100690057",
+        "LOC100690645",
+        "LOC100692587",
+        "LOC100692674",
+        "LOC100693062",
+        "LOC100693141",
+        "LOC100694607",
+        "LOC100695060",
+        "LOC100695608",
+        "LOC100695760",
+        "LOC100695831",
+        "LOC100696016",
+        "LOC100696613",
+        "LOC100696786",
+        "LOC100697091",
+        "LOC100697142",
+        "LOC100697423",
+        "LOC100697434",
+        "LOC100697843",
+        "LOC100698400",
+        "LOC100698799",
+        "LOC100699660",
+        "LOC100700431",
+        "LOC100700806",
+        "LOC100700847",
+        "LOC100700971",
+        "LOC100701173",
+        "LOC100701856",
+        "LOC100701956",
+        "LOC100703061",
+        "LOC100703964",
+        "LOC100704109",
+        "LOC100704650",
+        "LOC100705042",
+        "LOC100705231",
+        "LOC100705239",
+        "LOC100705312",
+        "LOC100705449",
+        "LOC100705832",
+        "LOC100705898",
+        "LOC100706497",
+        "LOC100706528",
+        "LOC100706772",
+        "LOC100707142",
+        "LOC100707179",
+        "LOC100707594",
+        "LOC100708544",
+        "LOC100709019",
+        "LOC100709085",
+        "LOC100709124",
+        "LOC100709974",
+        "LOC100710668",
+        "LOC100712084",
+        "LOC100712213",
+        "LOC100712330",
+        "LOC109194175",
+        "atp5f1c",
+        "atp5f1d",
+        "atp5mf",
+        "atp5pb",
+        "atp5pd",
+        "atp5pf",
+        "atp5po",
+        "atp6v0b",
+        "atp6v0e1",
+        "atp6v1d",
+        "atp6v1f",
+        "atp6v1g1",
+        "atp6v1h",
+        "lhpp",
+        "ndufa10",
+        "ndufa12",
+        "ndufa13",
+        "ndufa2",
+        "ndufa3",
+        "ndufa5",
+        "ndufa6",
+        "ndufa7",
+        "ndufa8",
+        "ndufb10",
+        "ndufb11",
+        "ndufb2",
+        "ndufb3",
+        "ndufb4",
+        "ndufb5",
+        "ndufb6",
+        "ndufb7",
+        "ndufb8",
+        "ndufb9",
+        "ndufc1",
+        "ndufs2",
+        "ndufs3",
+        "ndufs4",
+        "ndufs5",
+        "ndufs6",
+        "ndufs7",
+        "ndufv1",
+        "ndufv2",
+        "ndufv3",
+        "ppa2",
+        "sdha",
+        "sdhc"
+      ],
+      "route_members": [
+        "LOC100689881",
+        "LOC100692041",
+        "LOC100692587",
+        "LOC100692674",
+        "LOC100693062",
+        "LOC100693141",
+        "LOC100694607",
+        "LOC100695060",
+        "LOC100695608",
+        "LOC100695760",
+        "LOC100695831",
+        "LOC100696016",
+        "LOC100696271",
+        "LOC100696613",
+        "LOC100696786",
+        "LOC100697091",
+        "LOC100697142",
+        "LOC100697423",
+        "LOC100697434",
+        "LOC100697843",
+        "LOC100698400",
+        "LOC100698799",
+        "LOC100699660",
+        "LOC100700431",
+        "LOC100700806",
+        "LOC100700847",
+        "LOC100700971",
+        "LOC100701173",
+        "LOC100701856",
+        "LOC100701956",
+        "LOC100703061",
+        "LOC100703964",
+        "LOC100704109",
+        "LOC100704650",
+        "LOC100705042",
+        "LOC100705231",
+        "LOC100705239",
+        "LOC100705312",
+        "LOC100705449",
+        "LOC100705832",
+        "LOC100705898",
+        "LOC100706497",
+        "LOC100706528",
+        "LOC100706772",
+        "LOC100707142",
+        "LOC100707179",
+        "LOC100707594",
+        "LOC100708544",
+        "LOC100709019",
+        "LOC100709085",
+        "LOC100709124",
+        "LOC100709974",
+        "LOC100710668",
+        "LOC100712084",
+        "LOC100712213",
+        "LOC100712330",
+        "LOC109194175",
+        "atp5f1c",
+        "atp5f1d",
+        "atp5mf",
+        "atp5pb",
+        "atp5pd",
+        "atp5pf",
+        "atp5po",
+        "atp6v0b",
+        "atp6v0e1",
+        "atp6v1d",
+        "atp6v1f",
+        "atp6v1g1",
+        "atp6v1h",
+        "lhpp",
+        "ndufa10",
+        "ndufa12",
+        "ndufa13",
+        "ndufa2",
+        "ndufa3",
+        "ndufa5",
+        "ndufa6",
+        "ndufa7",
+        "ndufa8",
+        "ndufb10",
+        "ndufb11",
+        "ndufb2",
+        "ndufb3",
+        "ndufb4",
+        "ndufb5",
+        "ndufb6",
+        "ndufb7",
+        "ndufb8",
+        "ndufb9",
+        "ndufc1",
+        "ndufs2",
+        "ndufs3",
+        "ndufs4",
+        "ndufs5",
+        "ndufs6",
+        "ndufs7",
+        "ndufv1",
+        "ndufv2",
+        "ndufv3",
+        "ppa2",
+        "sdha",
+        "sdhc"
+      ],
+      "only_fixed": [
+        "LOC100690057",
+        "LOC100690645"
+      ],
+      "only_route": [
+        "LOC100692041",
+        "LOC100696271"
+      ],
+      "background": {
+        "n_genes": 37484,
+        "members_sha256": "2e7dd50402789352fa0b82ab2a56b94167b0333df562315956d81ba433ff2182",
+        "digest_encoding": "sorted unique exact gene identifiers joined by LF, with one final LF; UTF-8"
+      },
+      "contrast_resources": {
+        "24_vs_0": {
+          "background_count": 23764,
+          "background_members_sha256": "0bf094e94cd95ebf15d11e8a8d783adb5c4710b55917d010dfb00cd91944b8e8",
+          "gmt_sha256": "353c8c653ccd879ff67e455577a77784337a2c6f1ce15c0b884024b36b4f29b8"
+        },
+        "96_vs_0": {
+          "background_count": 23764,
+          "background_members_sha256": "0bf094e94cd95ebf15d11e8a8d783adb5c4710b55917d010dfb00cd91944b8e8",
+          "gmt_sha256": "353c8c653ccd879ff67e455577a77784337a2c6f1ce15c0b884024b36b4f29b8"
+        },
+        "96_vs_24": {
+          "background_count": 23764,
+          "background_members_sha256": "0bf094e94cd95ebf15d11e8a8d783adb5c4710b55917d010dfb00cd91944b8e8",
+          "gmt_sha256": "353c8c653ccd879ff67e455577a77784337a2c6f1ce15c0b884024b36b4f29b8"
+        }
+      }
+    }
+  },
+  "schema_version": 1,
+  "analysis_scope": "Scientific computations and recorded results supporting the Marine Biotechnology manuscript.",
+  "inputs": {
+    "apc_de_results": {
+      "path": "results/de/apc",
+      "external": false,
+      "kind": "directory",
+      "description": "Independent APC-like state DE fits",
+      "schema": "Directory original separately shrunken3 contrasts .tsv.gz with gene identifier and model statistics",
+      "upstream": {
+        "task": "frozen-apc",
+        "output_relative": "pseudobulk",
+        "entrypoint": "python analysis.py --stage pseudobulk:frozen-apc --execute --output NEW_DIRECTORY"
+      },
+      "consumed_by": [
+        "state_programs:route-evidence"
+      ],
+      "required_files": [
+        {
+          "path": "broad__dendritic_APC-like__24_vs_0.tsv.gz",
+          "bytes": 2246455,
+          "sha256": "b26ffe1d657ad5c80e35087d0c03795590e0994ce086a7b5e19977ef34826f85",
+          "columns": [
+            "gene",
+            "analysis_level",
+            "group",
+            "contrast",
+            "model",
+            "residual_df",
+            "baseMean",
+            "log2FoldChange_unshrunk",
+            "lfcSE_unshrunk",
+            "stat",
+            "pvalue",
+            "padj",
+            "log2FoldChange_shrunken",
+            "lfcSE_shrunken",
+            "paired_log2cpm_diff_batch_1",
+            "paired_log2cpm_diff_batch_2",
+            "paired_effect_mean",
+            "paired_effect_min_abs",
+            "paired_batches_same_direction",
+            "paired_direction_matches_model",
+            "direction_robust"
+          ]
+        },
+        {
+          "path": "broad__dendritic_APC-like__96_vs_0.tsv.gz",
+          "bytes": 2253698,
+          "sha256": "a2f6784e6f33c2e1053ea78f760185a8049a87d9532ac2f8385cec4976a39d45",
+          "columns": [
+            "gene",
+            "analysis_level",
+            "group",
+            "contrast",
+            "model",
+            "residual_df",
+            "baseMean",
+            "log2FoldChange_unshrunk",
+            "lfcSE_unshrunk",
+            "stat",
+            "pvalue",
+            "padj",
+            "log2FoldChange_shrunken",
+            "lfcSE_shrunken",
+            "paired_log2cpm_diff_batch_1",
+            "paired_log2cpm_diff_batch_2",
+            "paired_effect_mean",
+            "paired_effect_min_abs",
+            "paired_batches_same_direction",
+            "paired_direction_matches_model",
+            "direction_robust"
+          ]
+        },
+        {
+          "path": "broad__dendritic_APC-like__96_vs_24.tsv.gz",
+          "bytes": 2169651,
+          "sha256": "22eaf0af467d71a4871af6ff9976a0a6b13ae3855bd60271a2ff339c713dda6b",
+          "columns": [
+            "gene",
+            "analysis_level",
+            "group",
+            "contrast",
+            "model",
+            "residual_df",
+            "baseMean",
+            "log2FoldChange_unshrunk",
+            "lfcSE_unshrunk",
+            "stat",
+            "pvalue",
+            "padj",
+            "log2FoldChange_shrunken",
+            "lfcSE_shrunken",
+            "paired_log2cpm_diff_batch_1",
+            "paired_log2cpm_diff_batch_2",
+            "paired_effect_mean",
+            "paired_effect_min_abs",
+            "paired_batches_same_direction",
+            "paired_direction_matches_model",
+            "direction_robust"
+          ]
+        }
+      ]
+    },
+    "apc_fit_metadata": {
+      "path": "results/de/apc/diagnostics/fit_ref0_sample_metadata.tsv",
+      "external": false,
+      "kind": "file",
+      "description": "Original frozen APC DE fit metadata",
+      "schema": {
+        "format": "TSV",
+        "columns": [
+          "pool",
+          "sequencing_batch",
+          "time_h",
+          "size_factors",
+          "replaceable"
+        ]
+      },
+      "upstream": {
+        "task": "frozen-apc",
+        "output_relative": "pseudobulk/fit_ref0_sample_metadata.tsv",
+        "entrypoint": "python analysis.py --stage pseudobulk:frozen-apc --execute --output NEW_DIRECTORY"
+      },
+      "consumed_by": [
+        "state_programs:cross-cell"
+      ],
+      "sha256": "b5ec61c45d8b03ecdaea54cea6df4e8dcaeeffe55a554cb48880a8d77376226e"
+    },
+    "apc_state_coverage_and_candidate_expression": {
+      "path": "results/pathways/route_evidence/apc_state_coverage.tsv",
+      "sha256": "38c25fe7791c964a2670d317a23cd6db640a2b2077f05fbbdbd9e07a25b08359",
+      "description": "Twelve APC-state/pool cell and UMI shares plus LOC102081935 expression values for Fig6 state localization.",
+      "kind": "file",
+      "consumed_by": [
+        "state_programs:route-evidence"
+      ],
+      "external": false,
+      "schema": {
+        "format": "TSV",
+        "columns": [
+          "state",
+          "pool",
+          "stage",
+          "sequencing_batch",
+          "n_cells",
+          "cell_fraction_within_APC",
+          "total_UMI",
+          "UMI_fraction_within_APC",
+          "LOC102081935_UMI",
+          "LOC102081935_CPM"
+        ]
+      },
+      "upstream": {
+        "task": "cross-cell",
+        "output_relative": "APC_state_coverage_and_candidate_expression.tsv",
+        "entrypoint": "python analysis.py --stage state_programs:cross-cell --execute --output NEW_DIRECTORY"
+      }
+    },
+    "atlas_group_counts": {
+      "path": "inputs/current_atlas_84_group_raw_counts.npz",
+      "external": false,
+      "kind": "file",
+      "description": "84 broad-class/pool raw counts",
+      "schema": "NPZ counts[84,n_genes], detected_cells[84,n_genes], genes[str]",
+      "upstream": {
+        "task": "aggregate",
+        "output_relative": "pseudobulk/current_atlas_84_group_raw_counts.npz",
+        "entrypoint": "python analysis.py --stage pseudobulk:aggregate --execute --output NEW_DIRECTORY"
+      },
+      "alias_of": "frozen_apc_counts",
+      "consumed_by": [
+        "state_programs:cross-cell",
+        "state_programs:route-evidence"
+      ],
+      "sha256": "426c11ba0f76ab7e4de9c73899e57d97c581d356fe5145a4d344a730a924ef3f"
+    },
+    "atlas_group_metadata": {
+      "path": "inputs/current_atlas_84_group_metadata.tsv",
+      "external": false,
+      "kind": "file",
+      "description": "84 broad-class/pool count metadata",
+      "schema": {
+        "format": "TSV",
+        "columns": [
+          "cell_type",
+          "pool",
+          "n_cells",
+          "total_UMI",
+          "stage",
+          "sequencing_batch"
+        ]
+      },
+      "upstream": {
+        "task": "aggregate",
+        "output_relative": "pseudobulk/current_atlas_84_group_metadata.tsv",
+        "entrypoint": "python analysis.py --stage pseudobulk:aggregate --execute --output NEW_DIRECTORY"
+      },
+      "alias_of": "frozen_apc_metadata",
+      "consumed_by": [
+        "state_programs:cross-cell",
+        "state_programs:route-evidence"
+      ],
+      "sha256": "fd954270a569a92b0e08fc0c0d71c275963afb7b798736cae43a373dd583cd88"
+    },
+    "atlas_h5ad": {
+      "path": "external/checkpoints/15_atlas_v6_full_feature_reannotated.h5ad",
+      "external": true,
+      "kind": "file",
+      "description": "Current fully annotated atlas",
+      "schema": "84,686 QC-retained cells; exclude_from_biology_v5 marks 43 cells; 84,643 primary cells, 26 states, 14 broad types, all 37,484 features; full counts and normalized X; uns.markers_v5_full required for markers task",
+      "upstream": {
+        "task": "build",
+        "output_relative": "atlas/full_feature_annotated.h5ad",
+        "entrypoint": "python analysis.py --stage atlas:build --execute --output NEW_DIRECTORY"
+      },
+      "consumed_by": [
+        "atlas:markers",
+        "pseudobulk:fit",
+        "pseudobulk:whole-gill",
+        "pseudobulk:aggregate",
+        "enrichment:recovered-kegg",
+        "state_programs:state-composition",
+        "state_programs:metabolism",
+        "state_programs:cross-cell",
+        "state_programs:state-robustness",
+        "regulatory:tf-activity",
+        "regulatory:identity"
+      ],
+      "expected_bytes": 920400794,
+      "availability": "Located and contract-inspected in the author archive; not included in this public code tree. Obtain the exact resource or generate the documented intermediate, then bind explicitly.",
+      "resource_group": "external/checkpoints/15_atlas_v6_full_feature_reannotated.h5ad",
+      "sha256": "a4eeeb2ca6410c222d2a5abacab44b3c12782f8d4fdefe4076bbc84538a73ca1"
+    },
+    "baseline_state_tf": {
+      "path": "results/regulatory/activity/state_pool_collectri_ulm.tsv.gz",
+      "external": false,
+      "kind": "file",
+      "description": "Full-universe original state/pool TF scores",
+      "schema": {
+        "format": "TSV",
+        "columns": [
+          "sample",
+          "tf",
+          "activity",
+          "cell_type",
+          "pool",
+          "time_h",
+          "state",
+          "n_cells",
+          "prespecified"
+        ]
+      },
+      "upstream": {
+        "task": "tf-activity",
+        "output_relative": "state_pool_collectri_ulm.tsv.gz",
+        "entrypoint": "python analysis.py --stage regulatory:tf-activity --execute --output NEW_DIRECTORY"
+      },
+      "consumed_by": [
+        "state_programs:state-composition",
+        "regulatory:tf-specificity"
+      ],
+      "sha256": "517c7367ff800d9b36a8ca8ba0dff3b9286d8c77e31cb9ba2ae94de715060a33"
+    },
+    "baseline_tf_activity": {
+      "path": "results/regulatory/activity/prespecified_tf_activity.tsv",
+      "external": false,
+      "kind": "file",
+      "description": "Prespecified contrast TF activity",
+      "schema": {
+        "format": "TSV",
+        "columns": [
+          "cell_type",
+          "contrast",
+          "tf",
+          "activity_model",
+          "activity_batch_1",
+          "activity_batch_2",
+          "padj_model",
+          "n_mapped_targets",
+          "batch_same_direction",
+          "batch_direction_matches_model",
+          "direction_robust",
+          "prespecified"
+        ]
+      },
+      "upstream": {
+        "task": "tf-activity",
+        "output_relative": "prespecified_tf_activity.tsv",
+        "entrypoint": "python analysis.py --stage regulatory:tf-activity --execute --output NEW_DIRECTORY"
+      },
+      "consumed_by": [
+        "regulatory:tf-specificity"
+      ],
+      "sha256": "cdd25e1a75af91f907c1eb9709ee5973e0cd82caa24f9e2690db9ebc047caa66"
+    },
+    "collectri_human": {
+      "path": "inputs/collectri_human_remove_complexes.tsv.gz",
+      "external": false,
+      "kind": "file",
+      "description": "Frozen downloaded human CollecTRI network",
+      "schema": "TSV.GZ source,target,weight; remove_complexes=True reference",
+      "upstream": {
+        "kind": "external_reference"
+      },
+      "consumed_by": [
+        "regulatory:tf-activity",
+        "regulatory:tf-specificity"
+      ],
+      "sha256": "e9f8612d4632ca1ae84648dbf7a1c046ba574127ebe5c689d86bf27fec4ce443"
+    },
+    "composition_broad_by_pool": {
+      "path": "inputs/composition_broad_by_pool.tsv",
+      "external": false,
+      "kind": "file",
+      "description": "Expected original broad composition used as strict aggregation guard",
+      "schema": "cell_type_v5, biological_replicate, n_cells; all 14x6 cell-type/pool counts",
+      "upstream": {
+        "task": "build",
+        "output_relative": "atlas/audit/composition_broad_by_pool.tsv",
+        "entrypoint": "python analysis.py --stage atlas:build --execute --output NEW_DIRECTORY"
+      },
+      "consumed_by": [
+        "pseudobulk:aggregate"
+      ],
+      "sha256": "559ed3ff428b4d9c3d29b0c9abec152fbb97e0a8c252cba470192c1465183f44"
+    },
+    "cross_cell_size_factors": {
+      "path": "results/state/crosscell/size_factors.tsv",
+      "external": false,
+      "kind": "file",
+      "description": "Broad14-class median-ratio factors",
+      "schema": {
+        "format": "TSV",
+        "columns": [
+          "cell_type",
+          "pool",
+          "size_factor",
+          "eligible_genes",
+          "ratio_reference_median_total_over_SF"
+        ]
+      },
+      "upstream": {
+        "task": "cross-cell",
+        "output_relative": "median_ratio_size_factors_by_celltype.tsv",
+        "entrypoint": "python analysis.py --stage state_programs:cross-cell --execute --output NEW_DIRECTORY"
+      },
+      "consumed_by": [
+        "state_programs:route-evidence"
+      ],
+      "sha256": "f63c318b8f8326784caf4f2e4b18e1f098ccb441c88cb9b3dfa1d3e11602094d"
+    },
+    "de_dir": {
+      "path": "results/de/primary",
+      "external": false,
+      "kind": "directory",
+      "description": "Complete tested-gene DE tables with Wald statistics; never significant-only input",
+      "schema": "broad__pavement_cell/ionocyte/T_cell/macrophage__{24_vs_0,96_vs_0,96_vs_24}.tsv.gz; three ionocyte states x three contrasts; gene,baseMean,stat,padj,analysis_level,group,contrast,residual_df,shrunken LFC,paired batch differences",
+      "upstream": {
+        "task": "fit",
+        "output_relative": "pseudobulk",
+        "entrypoint": "python analysis.py --stage pseudobulk:fit --execute --output NEW_DIRECTORY"
+      },
+      "consumed_by": [
+        "enrichment:go-bp",
+        "enrichment:immune",
+        "enrichment:recovered-kegg"
+      ],
+      "required_files": [
+        {
+          "path": "broad__pavement_cell__24_vs_0.tsv.gz",
+          "bytes": 3493357,
+          "sha256": "dd34b9656d3a5211e943899a4bd0d5aa04df3e7214550e78e4146917823dff0a"
+        },
+        {
+          "path": "broad__pavement_cell__96_vs_0.tsv.gz",
+          "bytes": 3468628,
+          "sha256": "7568802e437d557492fb149e42f5c52ae43fd48b927901356eff4ce7259fc6c9"
+        },
+        {
+          "path": "broad__pavement_cell__96_vs_24.tsv.gz",
+          "bytes": 3503997,
+          "sha256": "1abb9ef110803a0b5490fe12e8323b5344666ac4e4813776cbd77b9ccf38c921"
+        },
+        {
+          "path": "broad__ionocyte__24_vs_0.tsv.gz",
+          "bytes": 2545088,
+          "sha256": "312ff90d4f0d6096a9f229103a3f256739af68299258af5ce1c5f27ad8882dea"
+        },
+        {
+          "path": "broad__ionocyte__96_vs_0.tsv.gz",
+          "bytes": 2553244,
+          "sha256": "b522d008c9e777d253d3f8dea10b1f0b44d79d47d1600b2ac5d9d8aa6463e973"
+        },
+        {
+          "path": "broad__ionocyte__96_vs_24.tsv.gz",
+          "bytes": 2579366,
+          "sha256": "9bbff0c7c03944936d4732ab97e993b05ae886e15e6276324b58b85f5ee777f0"
+        },
+        {
+          "path": "broad__T_cell__24_vs_0.tsv.gz",
+          "bytes": 2318664,
+          "sha256": "905001f9cc32f146036d38f941797cdb0e3235caec0daa97822596bff72e61d4"
+        },
+        {
+          "path": "broad__T_cell__96_vs_0.tsv.gz",
+          "bytes": 2349236,
+          "sha256": "7d68af1f5da252c9a5561bf093f6074df038057b7befa85f4b6b5a410793faee"
+        },
+        {
+          "path": "broad__T_cell__96_vs_24.tsv.gz",
+          "bytes": 2295036,
+          "sha256": "fb265c91136c5cd0eb2a184dd72e37d5032b2adeceba90c39d103e433a59b60d"
+        },
+        {
+          "path": "broad__macrophage__24_vs_0.tsv.gz",
+          "bytes": 2610205,
+          "sha256": "636776ab4ae1d70803971f319c6ff858a8e3f8228f0352fb90825da2e266d994"
+        },
+        {
+          "path": "broad__macrophage__96_vs_0.tsv.gz",
+          "bytes": 2599287,
+          "sha256": "07e1dccee85f02594d73f0e3653f62b1295841db9bb11c62a79eb44d789edd49"
+        },
+        {
+          "path": "broad__macrophage__96_vs_24.tsv.gz",
+          "bytes": 2577261,
+          "sha256": "8fd07ba91590c448fcde2af12f4e1a943158e8206013a939247da47403287be9"
+        },
+        {
+          "path": "ionocyte_state__SOX4_MYB_ATP1A1_progenitor-like__24_vs_0.tsv.gz",
+          "bytes": 2161835,
+          "sha256": "da095ad3187c3a71c8ae4bc065e27d06536ee402355b4b17d28968564cc4e0b1"
+        },
+        {
+          "path": "ionocyte_state__SOX4_MYB_ATP1A1_progenitor-like__96_vs_0.tsv.gz",
+          "bytes": 2208395,
+          "sha256": "d88f5cbf76f3f5ec25c8c1ce09571aece8c254ab95bc9398e5a3aebd1f330745"
+        },
+        {
+          "path": "ionocyte_state__SOX4_MYB_ATP1A1_progenitor-like__96_vs_24.tsv.gz",
+          "bytes": 2151208,
+          "sha256": "f245ac835aff56eb91b848e5b659a84291db1e614218af89471f362e28c7bdda"
+        },
+        {
+          "path": "ionocyte_state__FOXI1_NDRG1_ESRRG_transport__24_vs_0.tsv.gz",
+          "bytes": 1705964,
+          "sha256": "2d42db11638d7c57736870e8a956e08cd5ba19989451e25cfbbe334aeede543d"
+        },
+        {
+          "path": "ionocyte_state__FOXI1_NDRG1_ESRRG_transport__96_vs_0.tsv.gz",
+          "bytes": 1668722,
+          "sha256": "db97b62c23b2f79699a84600157445f111c6a85617579f30cf683c88cd45c837"
+        },
+        {
+          "path": "ionocyte_state__FOXI1_NDRG1_ESRRG_transport__96_vs_24.tsv.gz",
+          "bytes": 1709644,
+          "sha256": "0ff854b46f00818de480e5d3edec35094e3a573b83bf49365e1f153bab6da5c5"
+        },
+        {
+          "path": "ionocyte_state__ATP1A1_paralogue_mitochondria-rich__24_vs_0.tsv.gz",
+          "bytes": 1725536,
+          "sha256": "bde59b885071aa7eb14b121d568de09b396f9f194000ccc463faab9fa6a414ea"
+        },
+        {
+          "path": "ionocyte_state__ATP1A1_paralogue_mitochondria-rich__96_vs_0.tsv.gz",
+          "bytes": 1696009,
+          "sha256": "3bbefc78ce0cb79ff58ac3f99004a88f81f75950f526101785dbc96f751bb7e1"
+        },
+        {
+          "path": "ionocyte_state__ATP1A1_paralogue_mitochondria-rich__96_vs_24.tsv.gz",
+          "bytes": 1721853,
+          "sha256": "99fe26f011d50758104b32cd9be9f6d5702fb07681f0030fc425ab21a3750753"
+        }
+      ]
+    },
+    "de_results": {
+      "path": "results/de/primary",
+      "external": false,
+      "kind": "directory",
+      "description": "Primary frozen DE directory",
+      "schema": "broad__pavement_cell/ionocyte/T_cell/macrophage__{24_vs_0,96_vs_0,96_vs_24}.tsv.gz; three ionocyte states x three contrasts; gene,baseMean,stat,padj,analysis_level,group,contrast,residual_df,shrunken LFC,paired batch differences",
+      "upstream": {
+        "task": "fit",
+        "output_relative": "pseudobulk",
+        "entrypoint": "python analysis.py --stage pseudobulk:fit --execute --output NEW_DIRECTORY"
+      },
+      "alias_of": "de_dir",
+      "consumed_by": [
+        "state_programs:state-composition",
+        "state_programs:route-evidence",
+        "regulatory:tf-activity",
+        "regulatory:tf-specificity"
+      ],
+      "required_files": [
+        {
+          "path": "broad__pavement_cell__24_vs_0.tsv.gz",
+          "bytes": 3493357,
+          "sha256": "dd34b9656d3a5211e943899a4bd0d5aa04df3e7214550e78e4146917823dff0a"
+        },
+        {
+          "path": "broad__pavement_cell__96_vs_0.tsv.gz",
+          "bytes": 3468628,
+          "sha256": "7568802e437d557492fb149e42f5c52ae43fd48b927901356eff4ce7259fc6c9"
+        },
+        {
+          "path": "broad__pavement_cell__96_vs_24.tsv.gz",
+          "bytes": 3503997,
+          "sha256": "1abb9ef110803a0b5490fe12e8323b5344666ac4e4813776cbd77b9ccf38c921"
+        },
+        {
+          "path": "broad__ionocyte__24_vs_0.tsv.gz",
+          "bytes": 2545088,
+          "sha256": "312ff90d4f0d6096a9f229103a3f256739af68299258af5ce1c5f27ad8882dea"
+        },
+        {
+          "path": "broad__ionocyte__96_vs_0.tsv.gz",
+          "bytes": 2553244,
+          "sha256": "b522d008c9e777d253d3f8dea10b1f0b44d79d47d1600b2ac5d9d8aa6463e973"
+        },
+        {
+          "path": "broad__ionocyte__96_vs_24.tsv.gz",
+          "bytes": 2579366,
+          "sha256": "9bbff0c7c03944936d4732ab97e993b05ae886e15e6276324b58b85f5ee777f0"
+        },
+        {
+          "path": "broad__T_cell__24_vs_0.tsv.gz",
+          "bytes": 2318664,
+          "sha256": "905001f9cc32f146036d38f941797cdb0e3235caec0daa97822596bff72e61d4"
+        },
+        {
+          "path": "broad__T_cell__96_vs_0.tsv.gz",
+          "bytes": 2349236,
+          "sha256": "7d68af1f5da252c9a5561bf093f6074df038057b7befa85f4b6b5a410793faee"
+        },
+        {
+          "path": "broad__T_cell__96_vs_24.tsv.gz",
+          "bytes": 2295036,
+          "sha256": "fb265c91136c5cd0eb2a184dd72e37d5032b2adeceba90c39d103e433a59b60d"
+        },
+        {
+          "path": "broad__macrophage__24_vs_0.tsv.gz",
+          "bytes": 2610205,
+          "sha256": "636776ab4ae1d70803971f319c6ff858a8e3f8228f0352fb90825da2e266d994"
+        },
+        {
+          "path": "broad__macrophage__96_vs_0.tsv.gz",
+          "bytes": 2599287,
+          "sha256": "07e1dccee85f02594d73f0e3653f62b1295841db9bb11c62a79eb44d789edd49"
+        },
+        {
+          "path": "broad__macrophage__96_vs_24.tsv.gz",
+          "bytes": 2577261,
+          "sha256": "8fd07ba91590c448fcde2af12f4e1a943158e8206013a939247da47403287be9"
+        },
+        {
+          "path": "ionocyte_state__SOX4_MYB_ATP1A1_progenitor-like__24_vs_0.tsv.gz",
+          "bytes": 2161835,
+          "sha256": "da095ad3187c3a71c8ae4bc065e27d06536ee402355b4b17d28968564cc4e0b1"
+        },
+        {
+          "path": "ionocyte_state__SOX4_MYB_ATP1A1_progenitor-like__96_vs_0.tsv.gz",
+          "bytes": 2208395,
+          "sha256": "d88f5cbf76f3f5ec25c8c1ce09571aece8c254ab95bc9398e5a3aebd1f330745"
+        },
+        {
+          "path": "ionocyte_state__SOX4_MYB_ATP1A1_progenitor-like__96_vs_24.tsv.gz",
+          "bytes": 2151208,
+          "sha256": "f245ac835aff56eb91b848e5b659a84291db1e614218af89471f362e28c7bdda"
+        },
+        {
+          "path": "ionocyte_state__FOXI1_NDRG1_ESRRG_transport__24_vs_0.tsv.gz",
+          "bytes": 1705964,
+          "sha256": "2d42db11638d7c57736870e8a956e08cd5ba19989451e25cfbbe334aeede543d"
+        },
+        {
+          "path": "ionocyte_state__FOXI1_NDRG1_ESRRG_transport__96_vs_0.tsv.gz",
+          "bytes": 1668722,
+          "sha256": "db97b62c23b2f79699a84600157445f111c6a85617579f30cf683c88cd45c837"
+        },
+        {
+          "path": "ionocyte_state__FOXI1_NDRG1_ESRRG_transport__96_vs_24.tsv.gz",
+          "bytes": 1709644,
+          "sha256": "0ff854b46f00818de480e5d3edec35094e3a573b83bf49365e1f153bab6da5c5"
+        },
+        {
+          "path": "ionocyte_state__ATP1A1_paralogue_mitochondria-rich__24_vs_0.tsv.gz",
+          "bytes": 1725536,
+          "sha256": "bde59b885071aa7eb14b121d568de09b396f9f194000ccc463faab9fa6a414ea"
+        },
+        {
+          "path": "ionocyte_state__ATP1A1_paralogue_mitochondria-rich__96_vs_0.tsv.gz",
+          "bytes": 1696009,
+          "sha256": "3bbefc78ce0cb79ff58ac3f99004a88f81f75950f526101785dbc96f751bb7e1"
+        },
+        {
+          "path": "ionocyte_state__ATP1A1_paralogue_mitochondria-rich__96_vs_24.tsv.gz",
+          "bytes": 1721853,
+          "sha256": "99fe26f011d50758104b32cd9be9f6d5702fb07681f0030fc425ab21a3750753"
+        }
+      ]
+    },
+    "eggnog_bridge": {
+      "path": "external/references/emapper_to_matrix_bridge.tsv",
+      "external": true,
+      "kind": "file",
+      "description": "Frozen eggNOG matrix-feature bridge",
+      "schema": "feature_symbol,in_emapper,GO_list,KEGG_Pathway_list,gene_id",
+      "upstream": {
+        "kind": "external_reference"
+      },
+      "alias_of": "emapper_bridge",
+      "consumed_by": [
+        "state_programs:metabolism",
+        "state_programs:cross-cell",
+        "regulatory:orthology"
+      ],
+      "sha256": "053e5c5c221b39545625e8274cf8972076d38c78bc19db375e3bd56acd9e981a",
+      "expected_bytes": 32536119,
+      "availability": "Located and contract-inspected in the author archive; not included in this public code tree. Obtain the exact resource or generate the documented intermediate, then bind explicitly.",
+      "resource_group": "external/references/emapper_to_matrix_bridge.tsv"
+    },
+    "emapper_bridge": {
+      "path": "external/references/emapper_to_matrix_bridge.tsv",
+      "external": true,
+      "kind": "file",
+      "description": "Frozen eggNOG annotation availability and memberships",
+      "schema": "feature_symbol,in_emapper,GO_list,KEGG_Pathway_list,gene_id",
+      "upstream": {
+        "description": "Frozen input reference",
+        "output_relative": null
+      },
+      "expected_filename": "emapper_to_matrix_bridge.tsv",
+      "consumed_by": [
+        "enrichment:go-bp",
+        "enrichment:immune",
+        "enrichment:recovered-kegg"
+      ],
+      "sha256": "053e5c5c221b39545625e8274cf8972076d38c78bc19db375e3bd56acd9e981a",
+      "expected_bytes": 32536119,
+      "availability": "Located and contract-inspected in the author archive; not included in this public code tree. Obtain the exact resource or generate the documented intermediate, then bind explicitly.",
+      "resource_group": "external/references/emapper_to_matrix_bridge.tsv"
+    },
+    "filtered_counts_h5ad": {
+      "path": "external/checkpoints/03_filtered_counts.h5ad",
+      "external": true,
+      "kind": "file",
+      "description": "QC-retained count atlas, original 03 checkpoint",
+      "schema": "AnnData counts layer; obs library_id; var biotype/is_mitochondrial; 37,484 features",
+      "upstream": {
+        "task": "filter",
+        "output_relative": "03_filtered_counts.h5ad",
+        "entrypoint": "python analysis.py --stage counts_qc:filter --execute --output NEW_DIRECTORY"
+      },
+      "expected_filename": "03_filtered_counts.h5ad",
+      "consumed_by": [
+        "atlas:build"
+      ],
+      "expected_bytes": 760039458,
+      "availability": "Located and contract-inspected in the author archive; not included in this public code tree. Obtain the exact resource or generate the documented intermediate, then bind explicitly.",
+      "resource_group": "external/checkpoints/03_filtered_counts.h5ad",
+      "sha256": "44f8180b5094c6020ce1320182ec462fdc3bb26cc43837243ce72d63ad8732a1"
+    },
+    "fixed_module_membership": {
+      "path": "results/state/crosscell/members.tsv",
+      "sha256": "66f4e9cfcc46da09ecfef572fe4d3b33f1d960623c5b51d8c2416c89a5eef2e9",
+      "description": "552 membership rows for OXPHOS_consensus_103 (103), Antigen_processing_ko04612 (211), NFkB_signaling_ko04064 (238). Defines exact frozen common-score identities.",
+      "kind": "file",
+      "consumed_by": [
+        "state_programs:cross-cell",
+        "state_programs:route-evidence"
+      ],
+      "external": false,
+      "schema": {
+        "format": "TSV",
+        "columns": [
+          "module",
+          "gene",
+          "source"
+        ]
+      },
+      "upstream": {
+        "kind": "bundled_frozen_input",
+        "refresh_rule": "Retain the recorded file identity; no upstream recomputation is implied."
+      }
+    },
+    "fixed_module_stage_contrasts": {
+      "path": "results/state/crosscell/contrasts.tsv",
+      "sha256": "fadc19adf3d35cd277c473a26607027e3d059bfcca9e6aeb5c2bc8c24b3cca80",
+      "description": "Explicit file alias of fixed_module_stage_differences_all; preserved source schema supports state_programs:route-evidence.",
+      "kind": "file",
+      "consumed_by": [
+        "state_programs:route-evidence"
+      ],
+      "external": false,
+      "schema": {
+        "format": "TSV",
+        "columns": [
+          "cell_type",
+          "module",
+          "normalization",
+          "contrast",
+          "mean_delta_score",
+          "batch1_delta",
+          "batch2_delta",
+          "both_batches_same_direction",
+          "min_cells",
+          "all6_at_least100"
+        ]
+      },
+      "upstream": {
+        "task": "cross-cell",
+        "output_relative": "fixed_module_stage_differences_all.tsv",
+        "entrypoint": "python analysis.py --stage state_programs:cross-cell --execute --output NEW_DIRECTORY"
+      }
+    },
+    "frozen_apc_counts": {
+      "path": "inputs/current_atlas_84_group_raw_counts.npz",
+      "external": false,
+      "kind": "file",
+      "description": "84 cell-type/pool raw count and detection arrays",
+      "schema": "NPZ counts[84,n_genes], detected_cells[84,n_genes], genes[str]",
+      "upstream": {
+        "task": "aggregate",
+        "output_relative": "pseudobulk/current_atlas_84_group_raw_counts.npz",
+        "entrypoint": "python analysis.py --stage pseudobulk:aggregate --execute --output NEW_DIRECTORY"
+      },
+      "consumed_by": [
+        "pseudobulk:frozen-apc"
+      ],
+      "sha256": "426c11ba0f76ab7e4de9c73899e57d97c581d356fe5145a4d344a730a924ef3f"
+    },
+    "frozen_apc_metadata": {
+      "path": "inputs/current_atlas_84_group_metadata.tsv",
+      "external": false,
+      "kind": "file",
+      "description": "84 sorted cell-type/pool rows",
+      "schema": {
+        "format": "TSV",
+        "columns": [
+          "cell_type",
+          "pool",
+          "n_cells",
+          "total_UMI",
+          "stage",
+          "sequencing_batch"
+        ]
+      },
+      "upstream": {
+        "task": "aggregate",
+        "output_relative": "pseudobulk/current_atlas_84_group_metadata.tsv",
+        "entrypoint": "python analysis.py --stage pseudobulk:aggregate --execute --output NEW_DIRECTORY"
+      },
+      "consumed_by": [
+        "pseudobulk:frozen-apc"
+      ],
+      "sha256": "fd954270a569a92b0e08fc0c0d71c275963afb7b798736cae43a373dd583cd88"
+    },
+    "gconvert_query": {
+      "path": "inputs/gconvert_entrezgene_acc_query.json",
+      "external": false,
+      "kind": "file",
+      "description": "All recovered-profile GeneIDs submitted for independent reverse-uniqueness audit",
+      "schema": "organism=oniloticus,target=ENSG,numeric_ns=ENTREZGENE_ACC,query sorted exact candidate GeneIDs",
+      "upstream": {
+        "description": "Recovered frozen external resource only",
+        "output_relative": null
+      },
+      "expected_filename": "gconvert_entrezgene_acc_query.json",
+      "consumed_by": [
+        "enrichment:recovered-kegg"
+      ],
+      "sha256": "edfba2592121c6a6f9fe0ec17c21afabb026c5d12152abafc6f19c639ddb6f72"
+    },
+    "gconvert_response": {
+      "path": "inputs/gconvert_entrezgene_acc_response.json.gz",
+      "external": false,
+      "kind": "file",
+      "description": "All-query incoming-to-Ensembl records including every claimant",
+      "schema": "result list with incoming,converted; meta.version",
+      "upstream": {
+        "description": "Recovered frozen external resource only",
+        "output_relative": null
+      },
+      "expected_filename": "gconvert_entrezgene_acc_response.json.gz",
+      "consumed_by": [
+        "enrichment:recovered-kegg"
+      ],
+      "sha256": "13f8824c437624b1d3b97a00727df7ff4d89a3968aab175416cecb4c78cd7fc7"
+    },
+    "gene_annotation": {
+      "path": "inputs/GCF_001858045.2_RS_2025_06_gene_annotation.tsv",
+      "external": false,
+      "kind": "file",
+      "description": "Assembly-matched GeneID/symbol/biotype reference",
+      "schema": "TSV gene_symbol,gene_id,gff_gene_id,chromosome,start,end,strand,biotype,description,gene_synonym,is_mitochondrial,symbol_match_count,symbol_mapping_status.",
+      "upstream": {
+        "task": "reference",
+        "output_relative": "reference_map.tsv",
+        "entrypoint": "python analysis.py --stage counts_qc:reference --execute --output NEW_DIRECTORY"
+      },
+      "expected_filename": "GCF_001858045.2_RS_2025_06_gene_annotation.tsv",
+      "alias_of": "reference_map",
+      "consumed_by": [
+        "atlas:build",
+        "pseudobulk:fit",
+        "pseudobulk:whole-gill",
+        "pseudobulk:frozen-apc",
+        "enrichment:recovered-kegg",
+        "state_programs:metabolism",
+        "state_programs:respiratory",
+        "state_programs:cross-cell",
+        "state_programs:route-evidence",
+        "regulatory:identity",
+        "regulatory:motif"
+      ],
+      "sha256": "6f88756e3d260016e0cb420d00543f9f848a511d61e6685a98ad472051495a21"
+    },
+    "geneid_disagreements": {
+      "path": "results/regulatory/mapping/ncbi_eggnog_geneid_disagreements.tsv",
+      "external": false,
+      "kind": "file",
+      "description": "NCBI-versus-eggNOG identifier disagreements",
+      "schema": {
+        "format": "TSV",
+        "columns": [
+          "gene",
+          "baseMean",
+          "symbol_upper",
+          "gene_symbol",
+          "gene_id",
+          "initial_mapping_status",
+          "mapping_status",
+          "input_feature_geneid_unique",
+          "eggnog_bridge_geneids",
+          "eggnog_bridge_n_geneids",
+          "eggnog_annotation_available",
+          "eggnog_geneid_status",
+          "pre_gprofiler_eligible"
+        ]
+      },
+      "upstream": {
+        "task": "recovered-kegg",
+        "output_relative": "enrichment/recovered-kegg/ncbi_eggnog_geneid_disagreements.tsv",
+        "entrypoint": "python analysis.py --stage enrichment:recovered-kegg --execute --output NEW_DIRECTORY"
+      },
+      "consumed_by": [
+        "regulatory:tf-specificity"
+      ],
+      "sha256": "20cbb03f7a92deba520a5ade5a89507f38aab46020a985998f74fd0a70cbbd34"
+    },
+    "genome_fasta": {
+      "path": "external/references/GCF_001858045.2_O_niloticus_UMD_NMBU_genomic.fna.gz",
+      "external": true,
+      "kind": "file",
+      "description": "Frozen GCF_001858045.2 genome sequence",
+      "schema": "gzip FASTA assembly matching frozen RefSeq annotation",
+      "upstream": {
+        "kind": "external_reference"
+      },
+      "consumed_by": [
+        "regulatory:motif"
+      ],
+      "sha256": "2311847466ae52b91bfaa5da44e260be13ba7f4ec16d42f14676132d0551ca80",
+      "expected_bytes": 311592348,
+      "availability": "Located and contract-inspected in the author archive; not included in this public code tree. Obtain the exact resource or generate the documented intermediate, then bind explicitly.",
+      "resource_group": "external/references/GCF_001858045.2_O_niloticus_UMD_NMBU_genomic.fna.gz"
+    },
+    "go_obo": {
+      "path": "external/references/go-basic_2026-06-19.obo",
+      "external": true,
+      "kind": "file",
+      "description": "Frozen ontology for BP namespace, alt IDs, is_a/part_of shortest depth >=4",
+      "schema": "OBO Term records",
+      "upstream": {
+        "description": "Frozen ontology resource",
+        "output_relative": null
+      },
+      "expected_filename": "go-basic_2026-06-19.obo",
+      "consumed_by": [
+        "enrichment:go-bp",
+        "enrichment:immune"
+      ],
+      "sha256": "c72fc198a86983d55e43aac585d1ffdbeb6e3601475b3f18b6045acdc0a0734c",
+      "expected_bytes": 32215811,
+      "availability": "Located and contract-inspected in the author archive; not included in this public code tree. Obtain the exact resource or generate the documented intermediate, then bind explicitly.",
+      "resource_group": "external/references/go-basic_2026-06-19.obo"
+    },
+    "gprofiler_profile_query": {
+      "path": "inputs/gprofiler_union_query.json",
+      "external": false,
+      "kind": "file",
+      "description": "Frozen membership-only profile request for the selected original/recovered profile",
+      "schema": "Exact query generated by frozen_profile_query(chosen); 11 request fields and sorted GeneID list",
+      "upstream": {
+        "description": "Frozen external resource; profile-specific",
+        "output_relative": null
+      },
+      "expected_filename": "gprofiler_union_query.json",
+      "consumed_by": [
+        "enrichment:recovered-kegg"
+      ],
+      "sha256": "8ba72bdaab3388be9dc96dba09355ecdaa035b7ce4b800817efbfd9cdc748889"
+    },
+    "gprofiler_profile_response": {
+      "path": "inputs/gprofiler_union_response.json.gz",
+      "external": false,
+      "kind": "file",
+      "description": "Frozen organism-native KEGG membership evidence, not ORA p-values",
+      "schema": "meta.version; meta.genes_metadata.query.query_1.mapping/ensgs; result[source,native,name,term_size,intersections]",
+      "upstream": {
+        "description": "Frozen external resource; profile-specific",
+        "output_relative": null
+      },
+      "expected_filename": "gprofiler_union_response.json.gz",
+      "consumed_by": [
+        "enrichment:recovered-kegg"
+      ],
+      "sha256": "a336f975e3059783d389c74ec77623c0aa2347c8ec1a99b152805ec1695d29d1"
+    },
+    "human_gene_info": {
+      "path": "inputs/Homo_sapiens.gene_info_2026-08-19.gz",
+      "external": false,
+      "kind": "file",
+      "description": "Frozen human GeneInfo",
+      "schema": "gzip NCBI tax_id,GeneID,Symbol,Synonyms,dbXrefs",
+      "upstream": {
+        "kind": "external_reference"
+      },
+      "consumed_by": [
+        "regulatory:orthology"
+      ],
+      "sha256": "0d7e7e45d449e8d725a4e52fb108034b97a884bbf9df71af906f4577353ef508"
+    },
+    "immune_leading_edge_audit": {
+      "path": "inputs/all_immune_GSEA_leading_edge_audit.tsv.gz",
+      "external": false,
+      "kind": "file",
+      "description": "Complete immune GSEA leading-edge audit",
+      "schema": "TSV.GZ23946rows frozen pathway/contrast/batch checks",
+      "upstream": {
+        "kind": "independently_frozen_input",
+        "restriction": "The supplied leading-edge audit was assembled from recorded immune enrichment results. The historical resummary task is not part of the current public task registry; no automatic producer link is claimed."
+      },
+      "consumed_by": [
+        "state_programs:route-evidence"
+      ],
+      "sha256": "480d9a6d9c0198ea117722366cd71bb112eee6b1118c66cb7a54b78c0d729616"
+    },
+    "ionocyte_late_de": {
+      "path": "results/de/primary/broad__ionocyte__96_vs_24.tsv.gz",
+      "external": false,
+      "kind": "file",
+      "description": "Original broad-ionocyte96vs24 independent DE fit",
+      "schema": "TSV.GZ gene,baseMean,log2FoldChange,padj",
+      "upstream": {
+        "task": "fit",
+        "output_relative": "pseudobulk/broad__ionocyte__96_vs_24.tsv.gz",
+        "entrypoint": "python analysis.py --stage pseudobulk:fit --execute --output NEW_DIRECTORY"
+      },
+      "consumed_by": [
+        "regulatory:motif"
+      ],
+      "sha256": "9bbff0c7c03944936d4732ab97e993b05ae886e15e6276324b58b85f5ee777f0",
+      "expected_bytes": 2579366
+    },
+    "ionocyte_state_composition_by_pool": {
+      "path": "inputs/ionocyte_state_composition_by_pool.tsv",
+      "sha256": "608d3dae93d335bd000c4b518b993f1e57fff3f17ab3a8bd80f614528f169443",
+      "description": "Eighteen ionocyte-state/pool counts and both within-ionocyte and all-cell fractions, used for Fig4.",
+      "kind": "file",
+      "consumed_by": [
+        "state_programs:state-composition"
+      ],
+      "external": false,
+      "schema": {
+        "format": "TSV",
+        "columns": [
+          "biological_replicate",
+          "cell_state_v5",
+          "time_h",
+          "n_cells",
+          "n_all",
+          "fraction_within_ionocyte",
+          "fraction_of_all_cells",
+          "sample_id"
+        ]
+      },
+      "upstream": {
+        "kind": "bundled_frozen_input",
+        "refresh_rule": "Retain the recorded file identity; no upstream recomputation is implied."
+      }
+    },
+    "kegg_term_names": {
+      "path": "external/references/gsea_all_top_hits_named_v2.tsv",
+      "external": true,
+      "kind": "file",
+      "description": "Locked descriptive KEGG names for primary and immune GSEA",
+      "schema": "term,term_name; majority-name mapping within term",
+      "upstream": {
+        "description": "Frozen naming resource (no ORA values used)",
+        "output_relative": null
+      },
+      "expected_filename": "gsea_all_top_hits_named_v2.tsv",
+      "consumed_by": [
+        "enrichment:immune"
+      ],
+      "sha256": "cde80492de5f664f7efcc41e9d788f54c0ac9282b6ccdc01ac266228950d594d",
+      "expected_bytes": 15288214,
+      "availability": "Located and contract-inspected in the author archive; not included in this public code tree. Obtain the exact resource or generate the documented intermediate, then bind explicitly.",
+      "resource_group": "external/references/gsea_all_top_hits_named_v2.tsv"
+    },
+    "loc_conflicts": {
+      "path": "results/regulatory/mapping/all_LOC_geneid_conflicts.tsv",
+      "external": false,
+      "kind": "file",
+      "description": "All literal LOC identifier conflicts",
+      "schema": {
+        "format": "TSV",
+        "columns": [
+          "matrix_feature",
+          "literal_gene_id",
+          "original_h5ad_gene_id",
+          "original_mapping_status",
+          "assembly_records",
+          "current_assembly_symbol",
+          "other_feature_columns_claiming_same_gene_id",
+          "status",
+          "safe_bridge_candidate",
+          "symbol_changes_from_literal_LOC"
+        ]
+      },
+      "upstream": {
+        "task": "identity",
+        "output_relative": "all_LOC_geneid_conflicts.tsv",
+        "entrypoint": "python analysis.py --stage regulatory:identity --execute --output NEW_DIRECTORY"
+      },
+      "alias_of": "loc_geneid_conflicts",
+      "consumed_by": [
+        "regulatory:tf-specificity"
+      ],
+      "sha256": "4ef1a9f44f658d9324192b029469653851f886b7771000c4ad5f82f151cd8982"
+    },
+    "loc_geneid_audit": {
+      "path": "results/regulatory/mapping/all_LOC_feature_geneid_bridge_audit.tsv",
+      "external": false,
+      "kind": "file",
+      "description": "Independent all-feature numeric LOC recovery candidates",
+      "schema": {
+        "format": "TSV",
+        "columns": [
+          "matrix_feature",
+          "literal_gene_id",
+          "original_h5ad_gene_id",
+          "original_mapping_status",
+          "assembly_records",
+          "current_assembly_symbol",
+          "other_feature_columns_claiming_same_gene_id",
+          "status",
+          "safe_bridge_candidate",
+          "symbol_changes_from_literal_LOC"
+        ]
+      },
+      "upstream": {
+        "task": "identity",
+        "output_relative": "all_LOC_feature_geneid_bridge_audit.tsv",
+        "entrypoint": "python analysis.py --stage regulatory:identity --execute --output NEW_DIRECTORY"
+      },
+      "expected_filename": "all_LOC_feature_geneid_bridge_audit.tsv",
+      "consumed_by": [
+        "enrichment:recovered-kegg"
+      ],
+      "sha256": "944d97c2014107d307dda8b6f9b8940571de4b951a992d5a846feb19dc3d8052"
+    },
+    "loc_geneid_conflicts": {
+      "path": "results/regulatory/mapping/all_LOC_geneid_conflicts.tsv",
+      "external": false,
+      "kind": "file",
+      "description": "All input feature claims on GeneIDs including non-DE features",
+      "schema": {
+        "format": "TSV",
+        "columns": [
+          "matrix_feature",
+          "literal_gene_id",
+          "original_h5ad_gene_id",
+          "original_mapping_status",
+          "assembly_records",
+          "current_assembly_symbol",
+          "other_feature_columns_claiming_same_gene_id",
+          "status",
+          "safe_bridge_candidate",
+          "symbol_changes_from_literal_LOC"
+        ]
+      },
+      "upstream": {
+        "task": "identity",
+        "output_relative": "all_LOC_geneid_conflicts.tsv",
+        "entrypoint": "python analysis.py --stage regulatory:identity --execute --output NEW_DIRECTORY"
+      },
+      "expected_filename": "all_LOC_geneid_conflicts.tsv",
+      "consumed_by": [
+        "enrichment:recovered-kegg"
+      ],
+      "sha256": "4ef1a9f44f658d9324192b029469653851f886b7771000c4ad5f82f151cd8982"
+    },
+    "matched_kegg_results": {
+      "path": "results/pathways/kegg",
+      "external": false,
+      "kind": "directory",
+      "description": "Recovered matched KEGG result directory",
+      "schema": "all_matched_results,matched_route_comparison,common_gene_universe_audit,gene_union_gprofiler_mapping,matched_catalogs,ranks/,gene_sets/,gconvert_identity_summary,manifest,status,convert response",
+      "upstream": {
+        "task": "recovered-kegg",
+        "output_relative": "enrichment/recovered-kegg",
+        "entrypoint": "python analysis.py --stage enrichment:recovered-kegg --execute --output NEW_DIRECTORY"
+      },
+      "consumed_by": [
+        "state_programs:metabolism",
+        "state_programs:respiratory",
+        "state_programs:route-evidence"
+      ],
+      "required_files": [
+        {
+          "path": "common_gene_universe_audit.tsv",
+          "bytes": 6594650,
+          "sha256": "6ab04050620532c17750211c777e900888e24c762e4d278e7a6439582e00cafd"
+        },
+        {
+          "path": "native_kegg_union_catalog.tsv",
+          "bytes": 242038,
+          "sha256": "c72b0d6e183cfde71d0334636056bc7caf9a8fd5403d599898b3ee11ebfe4c2c"
+        },
+        {
+          "path": "all_feature_bidirectional_geneid_audit.tsv",
+          "bytes": 5600120,
+          "sha256": "2aa58f7c0ff3055e135c6da243272985125ee80c5421966a7c8b9ab5d80d71c1"
+        },
+        {
+          "path": "matched_route_comparison.tsv.gz",
+          "bytes": 368208,
+          "sha256": "dca20c57f88a65cc8f4aba8c46803a39894a88e6e876b33c6abd647e72624105"
+        },
+        {
+          "path": "gene_sets/broad__pavement_cell__24_vs_0__gprofiler.gmt",
+          "bytes": 123842,
+          "sha256": "aa4f407d9e76f30743825c1e9824c6363881528b69b398a3bfb45ba530b0d4b4"
+        },
+        {
+          "path": "leading_edges/broad__pavement_cell__24_vs_0__gprofiler.tsv.gz",
+          "bytes": 169830,
+          "sha256": "e75a65aac5321af3e0910b59db84a62f1786a90433ae27c53f45ef90ef898a32"
+        },
+        {
+          "path": "gene_sets/broad__pavement_cell__24_vs_0__eggnog.gmt",
+          "bytes": 142857,
+          "sha256": "a5da172e51711ae3aca54e3112933bac5d3d2dd07f28f421045940a75a3113e7"
+        },
+        {
+          "path": "leading_edges/broad__pavement_cell__24_vs_0__eggnog.tsv.gz",
+          "bytes": 175771,
+          "sha256": "3b063f4f00de95f62611b5989c2b575abd1becdf2e9e072ce926e35f76ce755c"
+        },
+        {
+          "path": "gene_sets/broad__pavement_cell__96_vs_0__gprofiler.gmt",
+          "bytes": 123842,
+          "sha256": "aa4f407d9e76f30743825c1e9824c6363881528b69b398a3bfb45ba530b0d4b4"
+        },
+        {
+          "path": "leading_edges/broad__pavement_cell__96_vs_0__gprofiler.tsv.gz",
+          "bytes": 184420,
+          "sha256": "caa1f1cd57945588642a40fb10515c3ecca7676a3553c8749ddd067e23717927"
+        },
+        {
+          "path": "gene_sets/broad__pavement_cell__96_vs_0__eggnog.gmt",
+          "bytes": 142857,
+          "sha256": "a5da172e51711ae3aca54e3112933bac5d3d2dd07f28f421045940a75a3113e7"
+        },
+        {
+          "path": "leading_edges/broad__pavement_cell__96_vs_0__eggnog.tsv.gz",
+          "bytes": 187989,
+          "sha256": "315f8442922012a0a0670aed97a998a9078a394f1280c0b6cf666bd0ac61214f"
+        },
+        {
+          "path": "gene_sets/broad__pavement_cell__96_vs_24__gprofiler.gmt",
+          "bytes": 123842,
+          "sha256": "aa4f407d9e76f30743825c1e9824c6363881528b69b398a3bfb45ba530b0d4b4"
+        },
+        {
+          "path": "leading_edges/broad__pavement_cell__96_vs_24__gprofiler.tsv.gz",
+          "bytes": 172525,
+          "sha256": "6805bf0f3b51ee3531ab1469b2f6c82f3dcfbc11438a90e9d3b5c5291bd817f1"
+        },
+        {
+          "path": "gene_sets/broad__pavement_cell__96_vs_24__eggnog.gmt",
+          "bytes": 142857,
+          "sha256": "a5da172e51711ae3aca54e3112933bac5d3d2dd07f28f421045940a75a3113e7"
+        },
+        {
+          "path": "leading_edges/broad__pavement_cell__96_vs_24__eggnog.tsv.gz",
+          "bytes": 179776,
+          "sha256": "c50b70b2dda278e0963f80d4feb8d426f2aec9a45849edf3bef4e87b51dfbf41"
+        },
+        {
+          "path": "gene_sets/broad__ionocyte__24_vs_0__gprofiler.gmt",
+          "bytes": 109909,
+          "sha256": "353c8c653ccd879ff67e455577a77784337a2c6f1ce15c0b884024b36b4f29b8"
+        },
+        {
+          "path": "leading_edges/broad__ionocyte__24_vs_0__gprofiler.tsv.gz",
+          "bytes": 154767,
+          "sha256": "4a576a4fb4588c548e3d15a55ac182b649b05f0eca86c1c110ad4522d3132feb"
+        },
+        {
+          "path": "gene_sets/broad__ionocyte__24_vs_0__eggnog.gmt",
+          "bytes": 123756,
+          "sha256": "e5e08e889357293f9b3f4a6a2e744ed572f6ba7dff5b6c5e1e2f394ef13d6aff"
+        },
+        {
+          "path": "leading_edges/broad__ionocyte__24_vs_0__eggnog.tsv.gz",
+          "bytes": 165541,
+          "sha256": "19da637432b350d63e0487c5c797dece671f676cfb67db5d5c2b919df98829ce"
+        },
+        {
+          "path": "gene_sets/broad__ionocyte__96_vs_0__gprofiler.gmt",
+          "bytes": 109909,
+          "sha256": "353c8c653ccd879ff67e455577a77784337a2c6f1ce15c0b884024b36b4f29b8"
+        },
+        {
+          "path": "leading_edges/broad__ionocyte__96_vs_0__gprofiler.tsv.gz",
+          "bytes": 142407,
+          "sha256": "6c5510d8fce9d14179d3ea69a388575b50b4c91a49b1a820d6a5433b59df0da6"
+        },
+        {
+          "path": "gene_sets/broad__ionocyte__96_vs_0__eggnog.gmt",
+          "bytes": 123756,
+          "sha256": "e5e08e889357293f9b3f4a6a2e744ed572f6ba7dff5b6c5e1e2f394ef13d6aff"
+        },
+        {
+          "path": "leading_edges/broad__ionocyte__96_vs_0__eggnog.tsv.gz",
+          "bytes": 148728,
+          "sha256": "6a176a2f4b7a732f954fb7e6d4e656f616aa50de51fb691042524ea701f01f27"
+        },
+        {
+          "path": "gene_sets/broad__ionocyte__96_vs_24__gprofiler.gmt",
+          "bytes": 109909,
+          "sha256": "353c8c653ccd879ff67e455577a77784337a2c6f1ce15c0b884024b36b4f29b8"
+        },
+        {
+          "path": "leading_edges/broad__ionocyte__96_vs_24__gprofiler.tsv.gz",
+          "bytes": 148935,
+          "sha256": "0d4c44fb5406cf6967d4cb380cde36edd7b5ad558d7cfa4dad916abba2dfd255"
+        },
+        {
+          "path": "gene_sets/broad__ionocyte__96_vs_24__eggnog.gmt",
+          "bytes": 123756,
+          "sha256": "e5e08e889357293f9b3f4a6a2e744ed572f6ba7dff5b6c5e1e2f394ef13d6aff"
+        },
+        {
+          "path": "leading_edges/broad__ionocyte__96_vs_24__eggnog.tsv.gz",
+          "bytes": 164653,
+          "sha256": "b3212e06f49d030f2b3d3bc55c08042c31ba5b72f07cfe9764c0cc052553ba5b"
+        }
+      ],
+      "availability": "Located and contract-inspected in the author archive; not included in this public code tree. Obtain the exact resource or generate the documented intermediate, then bind explicitly.",
+      "resource_group": "external/recovered_kegg"
+    },
+    "matrix_root": {
+      "path": "external/provider_matrices",
+      "external": true,
+      "kind": "directory",
+      "description": "Provider matrix directory containing all twelve libraries named in sample_manifest.",
+      "schema": "Each library subdirectory contains matrix.mtx.gz, features.tsv.gz (one-column symbols), barcodes.tsv.gz.",
+      "upstream": {
+        "kind": "external_reference"
+      },
+      "consumed_by": [
+        "counts_qc:import"
+      ],
+      "required_files": [
+        {
+          "path": "ST96h_2/6-1-231030/barcodes.tsv.gz",
+          "bytes": 30463,
+          "sha256": "cdb55fec3b82646ee68ad701151e1bb54831449c27ee20fb2b17b6ba9c761400"
+        },
+        {
+          "path": "ST96h_2/6-1-231030/features.tsv.gz",
+          "bytes": 131517,
+          "sha256": "f729d72246255af58ce804ac4901fff751d80e44dd85310249931521bca2a2a3"
+        },
+        {
+          "path": "ST96h_2/6-1-231030/matrix.mtx.gz",
+          "bytes": 68603448,
+          "sha256": "46114e805ab9e5628d836b425e1066247658249aa020646b3c1ca6eb4fe92372"
+        },
+        {
+          "path": "ST96h_2/6-2-231030/barcodes.tsv.gz",
+          "bytes": 26154,
+          "sha256": "f41357a9193c590e1b2ab0f7652dda8979368d1e36a1a44da40d76559001973b"
+        },
+        {
+          "path": "ST96h_2/6-2-231030/features.tsv.gz",
+          "bytes": 131077,
+          "sha256": "da82964615bf935a982669ee223fcc093063493b8a4bc70381312d24f36c6d43"
+        },
+        {
+          "path": "ST96h_2/6-2-231030/matrix.mtx.gz",
+          "bytes": 60933098,
+          "sha256": "4d8bee8ff7a32f663d5d5dafdcc99383a95f8d654974981982dc8e2f7c440559"
+        },
+        {
+          "path": "ST96h_1/5-1-231114/barcodes.tsv.gz",
+          "bytes": 14244,
+          "sha256": "889e5de9e464fb3d50c40ae3b26e52a3715d1f774047db3ddb600eecb88a8292"
+        },
+        {
+          "path": "ST96h_1/5-1-231114/features.tsv.gz",
+          "bytes": 126164,
+          "sha256": "525bf0bbd2658b73dff67657f0be459bd3e6838cf2ed7523c63ac1cbfea32b8c"
+        },
+        {
+          "path": "ST96h_1/5-1-231114/matrix.mtx.gz",
+          "bytes": 34166005,
+          "sha256": "ab26e0c5ad91287e437d94f3027bf67ff282d24aa8854ad793849a72b1fc1ae5"
+        },
+        {
+          "path": "ST96h_1/5-2-231114/barcodes.tsv.gz",
+          "bytes": 21986,
+          "sha256": "3b28e90e3d596e57f085b6b2706a053042e81bdb5e3e249eb9f93676f868db21"
+        },
+        {
+          "path": "ST96h_1/5-2-231114/features.tsv.gz",
+          "bytes": 129684,
+          "sha256": "84a30a875e7bddb6e470137e076468b97fd66dfc58848d53bb25b765934ca69b"
+        },
+        {
+          "path": "ST96h_1/5-2-231114/matrix.mtx.gz",
+          "bytes": 48322285,
+          "sha256": "143be023c75da4930dff0c0bff21bca2aa02e5f3f36edfbcfe71d0bf11ab9097"
+        },
+        {
+          "path": "ST24h_2/4-1-231114/barcodes.tsv.gz",
+          "bytes": 15983,
+          "sha256": "c1168fdfa6a8dac9eedcbf639b1cb6173e0a35da394cffd55e902ed39a2ae97b"
+        },
+        {
+          "path": "ST24h_2/4-1-231114/features.tsv.gz",
+          "bytes": 127997,
+          "sha256": "3fcec4750b5cb173ca6ad60609468bb76b8939a326447a8030c7e71d759d5c90"
+        },
+        {
+          "path": "ST24h_2/4-1-231114/matrix.mtx.gz",
+          "bytes": 35544572,
+          "sha256": "8bb748e835127c9f8ae2c149a693f570d0b2c127b7d4faeac39b624e2c1a83f1"
+        },
+        {
+          "path": "ST24h_2/4-2-231114/barcodes.tsv.gz",
+          "bytes": 16135,
+          "sha256": "f63419cca7e0ae0d778910b31ac9f279fbe452491925fa4602450b46f5940ae4"
+        },
+        {
+          "path": "ST24h_2/4-2-231114/features.tsv.gz",
+          "bytes": 130403,
+          "sha256": "a273e0f3ff8c074a1dae108cca020ca87a24a4fab3528a2e92c44c5a14cb6124"
+        },
+        {
+          "path": "ST24h_2/4-2-231114/matrix.mtx.gz",
+          "bytes": 36562911,
+          "sha256": "6ed976fc9921eed0f9dec381d8a4e26c352997ee9d1dc80b14d8686b15710949"
+        },
+        {
+          "path": "ST24h_1/3-1-231030/barcodes.tsv.gz",
+          "bytes": 15469,
+          "sha256": "429ba2e5f47bb55b501238cd4ccbff032cc135e93db3b7bac3dc12e0fc282e98"
+        },
+        {
+          "path": "ST24h_1/3-1-231030/features.tsv.gz",
+          "bytes": 128992,
+          "sha256": "2528b936c8a53d849f8e9cd57723854406c55472e78110d54bde6bb366948e74"
+        },
+        {
+          "path": "ST24h_1/3-1-231030/matrix.mtx.gz",
+          "bytes": 37405820,
+          "sha256": "950e5ffdafa8c1cde199cef58198eb2c01102c09d790ec8883c2a189e0839676"
+        },
+        {
+          "path": "ST24h_1/3-2-231030/barcodes.tsv.gz",
+          "bytes": 15912,
+          "sha256": "ff038c831a71eb71c6946ae5ca4b34beb9fcd783fa5ddfb583be9dd093cad49c"
+        },
+        {
+          "path": "ST24h_1/3-2-231030/features.tsv.gz",
+          "bytes": 128833,
+          "sha256": "b88bae971a5504e10312e0aaac284a4958d43c1fc9e3ed54a832dbbebbb4383b"
+        },
+        {
+          "path": "ST24h_1/3-2-231030/matrix.mtx.gz",
+          "bytes": 40051728,
+          "sha256": "b9b87f85102f3223dc3abb41f4aed7c8b94b6c298fbca81314cc973e8d3da7ff"
+        },
+        {
+          "path": "CTL0h_2/2-1-231030/barcodes.tsv.gz",
+          "bytes": 15447,
+          "sha256": "4093a16da7d673fdf607c9bfbb284195f982ce8ad6a21a8614d5b8055078c294"
+        },
+        {
+          "path": "CTL0h_2/2-1-231030/features.tsv.gz",
+          "bytes": 130689,
+          "sha256": "d022b68494de44c86bf38af3fb79aa92a3958f1fbf94ebbafa57e43e11cbd459"
+        },
+        {
+          "path": "CTL0h_2/2-1-231030/matrix.mtx.gz",
+          "bytes": 28416047,
+          "sha256": "772c27f4650719a1e0b6da0fac5e566e883d14976354ef2f2451a0fb5a5da0cf"
+        },
+        {
+          "path": "CTL0h_2/2-2-231030/barcodes.tsv.gz",
+          "bytes": 15890,
+          "sha256": "9e4ef8030cf34afa4060cb2700502571311530afb104473ef7b1bee5827b589b"
+        },
+        {
+          "path": "CTL0h_2/2-2-231030/features.tsv.gz",
+          "bytes": 132964,
+          "sha256": "f938a5ba796c0cb278ee49dfec158e6e3870563e0a55789903ac344f03000945"
+        },
+        {
+          "path": "CTL0h_2/2-2-231030/matrix.mtx.gz",
+          "bytes": 30242277,
+          "sha256": "73b1f0080e69e03166e5177c9b27c5e7f9e022e05de58f3247d29dcd08ed086b"
+        },
+        {
+          "path": "CTL0h_1/1-1-231114/barcodes.tsv.gz",
+          "bytes": 15594,
+          "sha256": "a316a9a7ea448f4b641f64956e254cb48ac1b9bc88fc1560a1908a7b61233313"
+        },
+        {
+          "path": "CTL0h_1/1-1-231114/features.tsv.gz",
+          "bytes": 128154,
+          "sha256": "7dbb107d66a9c5b7f7826f4066d9b5d140a7a036d0d60a75e8e1622cfab3a7d0"
+        },
+        {
+          "path": "CTL0h_1/1-1-231114/matrix.mtx.gz",
+          "bytes": 27775474,
+          "sha256": "53fafb9983873a89d8cc2199fbbadba3f93734383f5199e732a2c8ef4e8f172a"
+        },
+        {
+          "path": "CTL0h_1/1-2-231114/barcodes.tsv.gz",
+          "bytes": 15728,
+          "sha256": "b482312bd0762cadc33e3ca5e9e790373d254103f1f3353991fecf6accdbc0b5"
+        },
+        {
+          "path": "CTL0h_1/1-2-231114/features.tsv.gz",
+          "bytes": 128876,
+          "sha256": "32d77b5b0f51c437b5697a0f4011ae5f793a1ba53294eadbf1b019329e6d4926"
+        },
+        {
+          "path": "CTL0h_1/1-2-231114/matrix.mtx.gz",
+          "bytes": 28337499,
+          "sha256": "26747a636b9f2ff8ee2927e81360d2f7f8482e5039360001ef5a2ef5bda28eba"
+        }
+      ],
+      "availability": "Located and contract-inspected in the author archive; not included in this public code tree. Obtain the exact resource or generate the documented intermediate, then bind explicitly.",
+      "resource_group": "external/provider_matrices"
+    },
+    "metabolic_results": {
+      "path": "results/state/metabolism",
+      "external": false,
+      "kind": "directory",
+      "description": "Current recovered-domain metabolic outputs",
+      "schema": "Directory module_gene_membership.tsv,all_feature_count_row_metadata.tsv,all_feature_state_pool_counts.tsv.gz,normalization_factors.tsv",
+      "upstream": {
+        "task": "metabolism",
+        "output_relative": ".",
+        "entrypoint": "python analysis.py --stage state_programs:metabolism --execute --output NEW_DIRECTORY"
+      },
+      "consumed_by": [
+        "state_programs:respiratory"
+      ],
+      "required_files": [
+        {
+          "path": "members.tsv",
+          "bytes": 92754,
+          "sha256": "41c86068c23883fbe86dd9b5f82910be15b2f7c57422f52954a4550fa9f1cf37",
+          "columns": [
+            "pathway",
+            "module",
+            "definition",
+            "gene",
+            "in_native",
+            "in_eggnog"
+          ]
+        },
+        {
+          "path": "count_rows.tsv",
+          "bytes": 9124,
+          "sha256": "5ae57d6a4610336e5343accd2cc604c8eed0f1ffa9ab0830d91ae49c67cfa109",
+          "columns": [
+            "matrix_row_0based",
+            "group_id",
+            "sample_id",
+            "cell_type",
+            "state",
+            "time_h",
+            "sequencing_batch",
+            "n_cells",
+            "total_umi",
+            "cell_fraction",
+            "umi_fraction"
+          ]
+        },
+        {
+          "path": "counts.tsv.gz",
+          "bytes": 1662163,
+          "sha256": "538ec9a2136def8741fb111dbd6675f73c14670f72aadcceedffcac4357fc0d0"
+        },
+        {
+          "path": "norm_factors.tsv",
+          "bytes": 7549,
+          "sha256": "80b4da1aff69b2b6328d66cf37bdc7300c0a8a121532faa3e9ca98a3c7dbdfb2",
+          "columns": [
+            "cell_type",
+            "level",
+            "sample_id",
+            "size_factor",
+            "total_umi",
+            "n_eligible_genes",
+            "n_all_six_positive",
+            "CPM_to_MOR_multiplier"
+          ]
+        }
+      ]
+    },
+    "motif_klf4": {
+      "path": "inputs/JASPAR_MA0039.5_KLF4.json",
+      "external": false,
+      "kind": "file",
+      "description": "KLF4 exact frozen JASPAR model",
+      "schema": "JASPAR PFM; preserve original model ID and pseudocount0.8",
+      "upstream": {
+        "kind": "external_reference"
+      },
+      "consumed_by": [
+        "regulatory:motif"
+      ],
+      "sha256": "8aae335df18830b5e201edf92393e209aa91888f76db1e9fb2ce38a6ee500deb"
+    },
+    "motif_myb": {
+      "path": "inputs/JASPAR_MA0100.4_MYB.json",
+      "external": false,
+      "kind": "file",
+      "description": "MYB exact frozen JASPAR model",
+      "schema": "JASPAR PFM; preserve original model ID and pseudocount0.8",
+      "upstream": {
+        "kind": "external_reference"
+      },
+      "consumed_by": [
+        "regulatory:motif"
+      ],
+      "sha256": "3353e0b2c3b1a2ae66d9550ab4e7164bb99db5cf1c4ab93aa8224bb3f3870654"
+    },
+    "motif_nfkb1": {
+      "path": "inputs/JASPAR_MA0105.4_NFKB1.json",
+      "external": false,
+      "kind": "file",
+      "description": "NFKB1 exact frozen JASPAR model",
+      "schema": "JASPAR PFM; preserve original model ID and pseudocount0.8",
+      "upstream": {
+        "kind": "external_reference"
+      },
+      "consumed_by": [
+        "regulatory:motif"
+      ],
+      "sha256": "a9b2e8b5cc2775baf27f6852e50ae076a0d05c7e9e6f9f057fa5d60a9221e73a"
+    },
+    "motif_rbpj": {
+      "path": "inputs/JASPAR_MA1116.2_RBPJ.json",
+      "external": false,
+      "kind": "file",
+      "description": "RBPJ exact frozen JASPAR model",
+      "schema": "JASPAR PFM; preserve original model ID and pseudocount0.8",
+      "upstream": {
+        "kind": "external_reference"
+      },
+      "consumed_by": [
+        "regulatory:motif"
+      ],
+      "sha256": "46ebf51e134e140ddba1636bf4e085fcf03dd08a17136bac53f93ff73b1c2910"
+    },
+    "motif_rela": {
+      "path": "inputs/JASPAR_MA0107.1_RELA.json",
+      "external": false,
+      "kind": "file",
+      "description": "RELA exact frozen JASPAR model",
+      "schema": "JASPAR PFM; preserve original model ID and pseudocount0.8",
+      "upstream": {
+        "kind": "external_reference"
+      },
+      "consumed_by": [
+        "regulatory:motif"
+      ],
+      "sha256": "4da203c91e57c08a25c82034a630c5968a5641d357e6bc188fe9b09b01fa5db7"
+    },
+    "motif_sox4": {
+      "path": "inputs/JASPAR_MA0867.3_SOX4.json",
+      "external": false,
+      "kind": "file",
+      "description": "SOX4 exact frozen JASPAR model",
+      "schema": "JASPAR PFM; preserve original model ID and pseudocount0.8",
+      "upstream": {
+        "kind": "external_reference"
+      },
+      "consumed_by": [
+        "regulatory:motif"
+      ],
+      "sha256": "cf3dcc8affb3da7d6966155e2d5afd3671da74fec6338a998375b06d2e7ce788"
+    },
+    "ncbi_gene_orthologs": {
+      "path": "external/references/NCBI_gene_orthologs_2026-08-19.gz",
+      "external": true,
+      "kind": "file",
+      "description": "Frozen NCBI cross-species orthology",
+      "schema": "gzip NCBI tax_id,GeneID,relationship,Other_tax_id,Other_GeneID",
+      "upstream": {
+        "kind": "external_reference"
+      },
+      "consumed_by": [
+        "regulatory:orthology"
+      ],
+      "sha256": "97169c962d013ba1a71a2b8b9cd4d24272d86eb908891e1ae9c6c4cdc0ee1324",
+      "expected_bytes": 128883698,
+      "availability": "Located and contract-inspected in the author archive; not included in this public code tree. Obtain the exact resource or generate the documented intermediate, then bind explicitly.",
+      "resource_group": "external/references/NCBI_gene_orthologs_2026-08-19.gz"
+    },
+    "pavement_state_marker_summary": {
+      "path": "inputs/pavement_state_marker_summary.tsv",
+      "sha256": "3c9607e22c9d5dff767e000e5103b10ee898d90da502697040e4e7260423da47",
+      "description": "Eighty-four pavement marker-state summaries used for Fig3 dot/marker panel, with pool and cell support counts.",
+      "kind": "file",
+      "consumed_by": [
+        "state_programs:state-composition"
+      ],
+      "external": false,
+      "schema": {
+        "format": "TSV",
+        "columns": [
+          "group",
+          "gene",
+          "n_cells",
+          "n_pools",
+          "mean_log1p_cp10k",
+          "fraction_detected",
+          "scaled_mean_within_gene"
+        ]
+      },
+      "upstream": {
+        "kind": "bundled_frozen_input",
+        "refresh_rule": "Retain the recorded file identity; no upstream recomputation is implied."
+      }
+    },
+    "qc_counts": {
+      "path": "external/checkpoints/02_qc_metrics.h5ad",
+      "external": true,
+      "kind": "file",
+      "description": "QC metrics and decisions attached to the raw count atlas.",
+      "schema": "AnnData with original count layer and QC flags required by filter_counts; not the already filtered atlas.",
+      "upstream": {
+        "task": "qc",
+        "output_relative": "02_qc_metrics.h5ad",
+        "entrypoint": "python analysis.py --stage counts_qc:qc --execute --output NEW_DIRECTORY"
+      },
+      "consumed_by": [
+        "counts_qc:filter"
+      ],
+      "expected_bytes": 793422205,
+      "availability": "Located and contract-inspected in the author archive; not included in this public code tree. Obtain the exact resource or generate the documented intermediate, then bind explicitly.",
+      "resource_group": "external/checkpoints/02_qc_metrics.h5ad",
+      "sha256": "bf88937285dd6dae636ad19ddd43b3fd9f2ec8e0a8cab31e57ab1ee9aa84e2a2"
+    },
+    "raw_counts": {
+      "path": "external/checkpoints/01_raw_counts.h5ad",
+      "external": true,
+      "kind": "file",
+      "description": "Outer-union raw provider count atlas before QC.",
+      "schema": "AnnData with raw count X/layers.counts, feature annotation and twelve-library sample manifest.",
+      "upstream": {
+        "task": "import",
+        "output_relative": "01_raw_counts.h5ad",
+        "entrypoint": "python analysis.py --stage counts_qc:import --execute --output NEW_DIRECTORY"
+      },
+      "consumed_by": [
+        "counts_qc:qc"
+      ],
+      "expected_bytes": 901695435,
+      "availability": "Located and contract-inspected in the author archive; not included in this public code tree. Obtain the exact resource or generate the documented intermediate, then bind explicitly.",
+      "resource_group": "external/checkpoints/01_raw_counts.h5ad",
+      "sha256": "a370fafb01181f7873374296e18ca4cd5136064a4dabbd8f6e397475a2040917"
+    },
+    "recorded_wells": {
+      "path": "inputs/recorded_wells.tsv",
+      "sha256": "a87f4816695708e59ecced4c5f71515742caad12e39faf067432573fc158aca7",
+      "description": "All 252 recorded wells (216 sample plus 36 NTC), with raw Cq, numeric Cq, sample/gene identity and experimental-status fields; basis for actual qPCR recomputation.",
+      "kind": "file",
+      "consumed_by": [
+        "qpcr:recompute"
+      ],
+      "external": false,
+      "schema": {
+        "format": "TSV",
+        "columns": [
+          "Plate",
+          "Well",
+          "Sample",
+          "Gene",
+          "TechRep",
+          "Cq",
+          "Cq_recorded",
+          "Cq_numeric",
+          "well_type",
+          "gene_role",
+          "noRT_status",
+          "source_status",
+          "amplification_efficiency_status"
+        ]
+      },
+      "upstream": {
+        "kind": "bundled_frozen_input",
+        "refresh_rule": "Retain the recorded file identity; no upstream recomputation is implied."
+      }
+    },
+    "recovered_geneid_audit": {
+      "path": "results/pathways/kegg/all_feature_bidirectional_geneid_audit.tsv",
+      "external": false,
+      "kind": "file",
+      "description": "Current recovered all-feature identifier audit",
+      "schema": {
+        "format": "TSV",
+        "columns": [
+          "gene",
+          "symbol_upper",
+          "gene_symbol",
+          "gene_id",
+          "initial_mapping_status",
+          "mapping_status",
+          "input_feature_geneid_unique",
+          "eggnog_bridge_geneids",
+          "eggnog_bridge_n_geneids",
+          "eggnog_annotation_available",
+          "eggnog_geneid_status",
+          "pre_gprofiler_eligible",
+          "in_tested_union"
+        ]
+      },
+      "upstream": {
+        "task": "recovered-kegg",
+        "output_relative": "enrichment/recovered-kegg/all_feature_bidirectional_geneid_audit.tsv",
+        "entrypoint": "python analysis.py --stage enrichment:recovered-kegg --execute --output NEW_DIRECTORY"
+      },
+      "consumed_by": [
+        "regulatory:tf-specificity"
+      ],
+      "sha256": "2aa58f7c0ff3055e135c6da243272985125ee80c5421966a7c8b9ab5d80d71c1"
+    },
+    "reference_gff": {
+      "path": "external/references/GCF_001858045.2_O_niloticus_UMD_NMBU_genomic.gff.gz",
+      "external": true,
+      "kind": "file",
+      "description": "Frozen GCF_001858045.2 RefSeq GFF for exact symbol annotation.",
+      "schema": "GFF3 or gzip GFF3; gene/pseudogene records, assembly-matched GeneID, symbol, biotype and coordinates.",
+      "upstream": {
+        "kind": "external_reference"
+      },
+      "consumed_by": [
+        "counts_qc:reference"
+      ],
+      "sha256": "d90907dd21fd474d279e8e9dfa033d50be298f8525f8a7155acb1ce5bf54d53b",
+      "expected_bytes": 21437340,
+      "availability": "Located and contract-inspected in the author archive; not included in this public code tree. Obtain the exact resource or generate the documented intermediate, then bind explicitly.",
+      "resource_group": "external/references/GCF_001858045.2_O_niloticus_UMD_NMBU_genomic.gff.gz"
+    },
+    "reference_map": {
+      "path": "inputs/GCF_001858045.2_RS_2025_06_gene_annotation.tsv",
+      "external": false,
+      "kind": "file",
+      "description": "Assembly annotation extracted from reference_gff.",
+      "schema": "TSV gene_symbol,gene_id,gff_gene_id,chromosome,start,end,strand,biotype,description,gene_synonym,is_mitochondrial,symbol_match_count,symbol_mapping_status.",
+      "upstream": {
+        "task": "reference",
+        "output_relative": "reference_map.tsv",
+        "entrypoint": "python analysis.py --stage counts_qc:reference --execute --output NEW_DIRECTORY"
+      },
+      "consumed_by": [
+        "counts_qc:import",
+        "counts_qc:qc"
+      ],
+      "sha256": "6f88756e3d260016e0cb420d00543f9f848a511d61e6685a98ad472051495a21"
+    },
+    "reference_summary": {
+      "path": "inputs/GCF_001858045.2_RS_2025_06_gene_annotation_summary.json",
+      "external": false,
+      "kind": "file",
+      "description": "Reference assembly identity and extraction summary.",
+      "schema": "JSON gff_sha256, mitochondrial_accession, gene record/unique symbol counts and biotype_counts.",
+      "upstream": {
+        "task": "reference",
+        "output_relative": "reference_summary.json",
+        "entrypoint": "python analysis.py --stage counts_qc:reference --execute --output NEW_DIRECTORY"
+      },
+      "consumed_by": [
+        "counts_qc:import"
+      ],
+      "sha256": "14bb9409d7834f3d0e04603b3ef7e370506777744d510df6d7e73598c201f1d8"
+    },
+    "salinity_original_seven_group_records": {
+      "path": "results/validation/salinity/original_tanks.tsv",
+      "sha256": "a8df1868313eba61d284b3ef79be7262b91aebc8bb80f87c1ce333ded8fe38f4",
+      "description": "All 21 unchanged tanks from the original seven-salinity experiment; mother table for Figure 1 and the primary LC50 analysis. Three tanks per dose, including 5 ppt. Independent 18-ppt validation is separate.",
+      "kind": "file",
+      "consumed_by": [
+        "mortality:mortality"
+      ],
+      "external": false,
+      "schema": {
+        "format": "TSV",
+        "columns": [
+          "Group",
+          "Replicate",
+          "Initial_fish",
+          "0h",
+          "24h",
+          "48h",
+          "72h",
+          "96h",
+          "120h",
+          "Alive_120h",
+          "Salinity_ppt",
+          "Record_set"
+        ]
+      },
+      "upstream": {
+        "kind": "bundled_frozen_input",
+        "refresh_rule": "Retain the recorded file identity; no upstream recomputation is implied."
+      }
+    },
+    "sample_manifest": {
+      "path": "results/qc/atlas/libraries.tsv",
+      "sha256": "560abb5e9c745b4f79a7f6ee1b172d8d50845b57b80d00bdb784847898cd54a1",
+      "description": "Twelve technical libraries with explicit six-tank sampling design and frozen local GEO accession mapping.",
+      "kind": "file",
+      "consumed_by": [
+        "counts_qc:import",
+        "atlas:build"
+      ],
+      "external": false,
+      "schema": {
+        "rows": 12,
+        "columns": [
+          "library_id",
+          "company_sample",
+          "fish_id",
+          "fish_pool",
+          "tank_id",
+          "biological_replicate",
+          "technical_replicate",
+          "capture_id",
+          "sequencing_date",
+          "sequencing_batch",
+          "time_h",
+          "condition",
+          "salinity_psu",
+          "body_length_cm",
+          "body_mass_g",
+          "sex",
+          "pooled",
+          "cell_viability_pct",
+          "notes",
+          "GSE",
+          "GSM",
+          "submission_library",
+          "technical_library",
+          "template_location",
+          "local_mapping_evidence",
+          "remote_sample_detail_verified",
+          "status",
+          "scheduled_public_release",
+          "raw_file_count",
+          "provider_matrix_file_count",
+          "initial_fish_per_tank",
+          "sampled_fish_per_tank",
+          "technical_libraries"
+        ]
+      },
+      "upstream": {
+        "kind": "bundled_frozen_input",
+        "refresh_rule": "Retain the recorded file identity; no upstream recomputation is implied."
+      }
+    },
+    "scrna_frozen_comparator": {
+      "path": "inputs/scrna_frozen_comparator.tsv",
+      "sha256": "aa8260af7a0b95844c63d8b7904eefacd119babba6ef621da4b10edbe7815799",
+      "description": "Frozen 20-row scRNA comparison paired with the recorded qPCR values; descriptive direction check only.",
+      "kind": "file",
+      "consumed_by": [
+        "qpcr:recompute"
+      ],
+      "external": false,
+      "schema": {
+        "format": "TSV",
+        "columns": [
+          "gene",
+          "stage",
+          "n_sample_labels",
+          "n_technical_wells_per_sample",
+          "qpcr_log2FC_equal_eff_assumption",
+          "relative_fold_equal_eff_assumption",
+          "qpcr_sample_1_log2FC",
+          "qpcr_sample_2_log2FC",
+          "qpcr_sample_SD_log2FC",
+          "scrna_log2FC_shrunken",
+          "matrix_gene",
+          "same_direction",
+          "core_figure",
+          "efficiency_assumption",
+          "evidence_level",
+          "noRT_status"
+        ]
+      },
+      "upstream": {
+        "kind": "independently_frozen_scRNA_comparator",
+        "restriction": "Supply the actual original comparator; recompute consumes it and cannot generate its own input. The bundled frozen file is retained with its original SHA256."
+      }
+    },
+    "state_pool_counts": {
+      "path": "results/state/metabolism/counts.tsv.gz",
+      "external": false,
+      "kind": "file",
+      "description": "60 state/pool raw count vectors",
+      "schema": {
+        "format": "TSV",
+        "columns": [
+          "3101707",
+          "KEH09_p01",
+          "KEH09_p02"
+        ],
+        "column_count": 37484,
+        "header_sha256": "12dd4549203d53625cdcb0faee27940290d1b4ae4201b319477921a909319c9f",
+        "header_digest_encoding": "Parsed header joined by TAB plus one final LF, UTF-8; full feature order is guarded."
+      },
+      "upstream": {
+        "task": "metabolism",
+        "output_relative": "counts.tsv.gz",
+        "entrypoint": "python analysis.py --stage state_programs:metabolism --execute --output NEW_DIRECTORY"
+      },
+      "consumed_by": [
+        "regulatory:tf-specificity"
+      ],
+      "sha256": "538ec9a2136def8741fb111dbd6675f73c14670f72aadcceedffcac4357fc0d0"
+    },
+    "state_pool_weights": {
+      "path": "results/state/metabolism/state_weights.tsv",
+      "external": false,
+      "kind": "file",
+      "description": "60 state/pool metadata and weights",
+      "schema": {
+        "format": "TSV",
+        "columns": [
+          "sample_id",
+          "cell_type",
+          "state",
+          "time_h",
+          "sequencing_batch",
+          "n_cells",
+          "total_umi",
+          "cell_fraction",
+          "umi_fraction"
+        ]
+      },
+      "upstream": {
+        "task": "metabolism",
+        "output_relative": "state_pool_weights.tsv",
+        "entrypoint": "python analysis.py --stage state_programs:metabolism --execute --output NEW_DIRECTORY"
+      },
+      "consumed_by": [
+        "regulatory:tf-specificity"
+      ],
+      "sha256": "1b28f69b074966840624ff551b15c044d5816e4e229e899de1ef2dda8b4c7b57"
+    },
+    "strict_orthology": {
+      "path": "results/regulatory/mapping/ncbi_tilapia_human_one_to_one_orthologs.tsv.gz",
+      "external": false,
+      "kind": "file",
+      "description": "Strict one-to-one matrix-to-human mapping",
+      "schema": {
+        "format": "TSV",
+        "columns": [
+          "tilapia_gene_id",
+          "human_gene_id",
+          "n_human_per_tilapia",
+          "n_tilapia_per_human",
+          "strict_one_to_one",
+          "human_symbol",
+          "tilapia_symbol",
+          "measured_feature",
+          "liana_compatible_feature"
+        ]
+      },
+      "upstream": {
+        "task": "orthology",
+        "output_relative": "ncbi_tilapia_human_one_to_one_orthologs.tsv.gz",
+        "entrypoint": "python analysis.py --stage regulatory:orthology --execute --output NEW_DIRECTORY"
+      },
+      "consumed_by": [
+        "regulatory:tf-activity",
+        "regulatory:tf-specificity"
+      ],
+      "sha256": "39d2803f0a545d49d27b187284fea0d029f4889ffde5cf1b185798c571db566b"
+    },
+    "tf_network": {
+      "path": "results/regulatory/activity/collectri_ncbi_one_to_one_tilapia_targets.tsv.gz",
+      "external": false,
+      "kind": "file",
+      "description": "Transferred frozen CollecTRI tilapia network",
+      "schema": {
+        "format": "TSV",
+        "columns": [
+          "source",
+          "source_tilapia",
+          "target",
+          "target_human",
+          "weight"
+        ]
+      },
+      "upstream": {
+        "task": "tf-activity",
+        "output_relative": "collectri_ncbi_one_to_one_tilapia_targets.tsv.gz",
+        "entrypoint": "python analysis.py --stage regulatory:tf-activity --execute --output NEW_DIRECTORY"
+      },
+      "consumed_by": [
+        "regulatory:tf-specificity",
+        "regulatory:motif"
+      ],
+      "sha256": "20d331e7b17f053572b4f0f684977a3a706bc809e2c63762a3560afcfe2a5e3e"
+    }
+  },
+  "input_configuration": {
+    "portable_layout": "Bundled paths resolve from the invoked package root (or --inputs package-root override), independently of config location. External paths resolve from the selected config directory. No automatic download or path substitution.",
+    "generated_inputs": "Use the documented retained producer in a new output directory, then explicitly bind its product in a separate config. Frozen hash checks protect the recorded state; a new scientific run is not presumed identical.",
+    "profiles": "Only the current recovered-kegg profile is exposed. Its requests and responses are paired and not replaced by live service calls.",
+    "validation_scope": "Preflight checks input presence, hashes, declared schemas and installed-distribution metadata; it does not execute statistical analyses.",
+    "merged_sources": "Recorded result paths are logical source identifiers in the HDF5 master file embedded source_index. Token-validated source slices preserve original schema, row order and source-local read_csv typing. Explicit external file/directory bindings remain supported."
+  },
+  "input_projection_contracts": {
+    "scrna_frozen_comparator": {
+      "unique_keys": [
+        "gene",
+        "stage"
+      ],
+      "rows": 20,
+      "aliases": {
+        "sample1": "qpcr_sample_1_log2FC",
+        "sample2": "qpcr_sample_2_log2FC",
+        "log2FC_assuming_equal_doubling_efficiency": "qpcr_log2FC_equal_eff_assumption"
+      },
+      "plot_comparison_atol": 1e-10
+    },
+    "recorded_wells": {
+      "columns": [
+        "Plate",
+        "Well",
+        "Sample",
+        "Gene",
+        "TechRep",
+        "Cq"
+      ],
+      "row_order": "preserved",
+      "rows": 252,
+      "sample_wells": 216,
+      "NTC_wells": 36,
+      "raw_strings": "preserved; nonnumeric NTC becomes NaN only in a new numeric descriptor",
+      "sample_invalid": "reject; do not impute or drop"
+    },
+    "seven_dose_lc50": {
+      "input": "salinity_original_seven_group_records",
+      "source_rows": 21,
+      "source_record_set": "Original batch",
+      "source_doses_ppt": [
+        0,
+        5,
+        10,
+        15,
+        20,
+        25,
+        30
+      ],
+      "selected_doses_ppt": [
+        0,
+        5,
+        10,
+        15,
+        20,
+        25,
+        30
+      ],
+      "selected_rows": 21,
+      "replicate_ids": [
+        1,
+        2,
+        3
+      ],
+      "fish_per_tank": 50,
+      "columns": [
+        "Group",
+        "Replicate",
+        "Initial_fish",
+        "0h",
+        "24h",
+        "48h",
+        "72h",
+        "96h",
+        "120h",
+        "Alive_120h"
+      ],
+      "producer": "tilapia.mortality.project_original_records",
+      "exclusion": "None within the original seven-dose experiment; independent 18-ppt experiment is not an eligible source."
+    }
+  },
+  "protected_paths": [],
+  "stages": {
+    "counts_qc:reference": {
+      "module": "tilapia.counts_qc",
+      "task": "reference",
+      "required_inputs": [
+        "reference_gff"
+      ],
+      "methods": [
+        "2.3"
+      ],
+      "default_profile": null,
+      "outputs_role": "Analysis data products"
+    },
+    "counts_qc:import": {
+      "module": "tilapia.counts_qc",
+      "task": "import",
+      "required_inputs": [
+        "matrix_root",
+        "sample_manifest",
+        "reference_map",
+        "reference_summary"
+      ],
+      "methods": [
+        "2.3"
+      ],
+      "default_profile": null,
+      "outputs_role": "Analysis data products"
+    },
+    "counts_qc:qc": {
+      "module": "tilapia.counts_qc",
+      "task": "qc",
+      "required_inputs": [
+        "raw_counts",
+        "reference_map"
+      ],
+      "methods": [
+        "2.4"
+      ],
+      "default_profile": null,
+      "outputs_role": "Analysis data products"
+    },
+    "counts_qc:filter": {
+      "module": "tilapia.counts_qc",
+      "task": "filter",
+      "required_inputs": [
+        "qc_counts"
+      ],
+      "methods": [
+        "2.4"
+      ],
+      "default_profile": null,
+      "outputs_role": "Analysis data products"
+    },
+    "atlas:build": {
+      "module": "tilapia.atlas",
+      "task": "build",
+      "required_inputs": [
+        "filtered_counts_h5ad",
+        "sample_manifest",
+        "gene_annotation"
+      ],
+      "methods": [
+        "2.4",
+        "2.5"
+      ],
+      "default_profile": null,
+      "outputs_role": "Analysis data products"
+    },
+    "atlas:markers": {
+      "module": "tilapia.atlas",
+      "task": "markers",
+      "required_inputs": [
+        "atlas_h5ad"
+      ],
+      "methods": [
+        "2.4"
+      ],
+      "default_profile": null,
+      "outputs_role": "Analysis data products"
+    },
+    "pseudobulk:fit": {
+      "module": "tilapia.pseudobulk",
+      "task": "fit",
+      "required_inputs": [
+        "atlas_h5ad",
+        "gene_annotation"
+      ],
+      "methods": [
+        "2.5"
+      ],
+      "default_profile": null,
+      "outputs_role": "Analysis data products"
+    },
+    "pseudobulk:whole-gill": {
+      "module": "tilapia.pseudobulk",
+      "task": "whole-gill",
+      "required_inputs": [
+        "atlas_h5ad",
+        "gene_annotation"
+      ],
+      "methods": [
+        "2.5",
+        "2.9"
+      ],
+      "default_profile": null,
+      "outputs_role": "Analysis data products"
+    },
+    "pseudobulk:frozen-apc": {
+      "module": "tilapia.pseudobulk",
+      "task": "frozen-apc",
+      "required_inputs": [
+        "frozen_apc_counts",
+        "frozen_apc_metadata",
+        "gene_annotation"
+      ],
+      "methods": [
+        "2.5"
+      ],
+      "default_profile": null,
+      "outputs_role": "Analysis data products"
+    },
+    "pseudobulk:aggregate": {
+      "module": "tilapia.pseudobulk",
+      "task": "aggregate",
+      "required_inputs": [
+        "atlas_h5ad",
+        "composition_broad_by_pool"
+      ],
+      "methods": [
+        "2.5",
+        "2.7"
+      ],
+      "default_profile": null,
+      "outputs_role": "Analysis data products"
+    },
+    "enrichment:go-bp": {
+      "module": "tilapia.enrichment",
+      "task": "go-bp",
+      "required_inputs": [
+        "de_dir",
+        "emapper_bridge",
+        "go_obo"
+      ],
+      "methods": [
+        "2.6"
+      ],
+      "default_profile": null,
+      "outputs_role": "Analysis data products"
+    },
+    "enrichment:immune": {
+      "module": "tilapia.enrichment",
+      "task": "immune",
+      "required_inputs": [
+        "de_dir",
+        "emapper_bridge",
+        "go_obo",
+        "kegg_term_names"
+      ],
+      "methods": [
+        "2.6"
+      ],
+      "default_profile": null,
+      "outputs_role": "Analysis data products"
+    },
+    "enrichment:recovered-kegg": {
+      "module": "tilapia.enrichment",
+      "task": "recovered-kegg",
+      "required_inputs": [
+        "de_dir",
+        "gene_annotation",
+        "emapper_bridge",
+        "gprofiler_profile_query",
+        "gprofiler_profile_response",
+        "atlas_h5ad",
+        "loc_geneid_audit",
+        "loc_geneid_conflicts",
+        "gconvert_query",
+        "gconvert_response"
+      ],
+      "methods": [
+        "2.6"
+      ],
+      "default_profile": "recovered-kegg",
+      "outputs_role": "Analysis data products",
+      "role": "Current Methods 2.6 strict recovered-GeneID/NCBI-Ensembl reciprocal-uniqueness route."
+    },
+    "state_programs:state-composition": {
+      "module": "tilapia.state_programs",
+      "task": "state-composition",
+      "required_inputs": [
+        "atlas_h5ad",
+        "ionocyte_state_composition_by_pool",
+        "de_results",
+        "pavement_state_marker_summary"
+      ],
+      "methods": [
+        "2.7"
+      ],
+      "default_profile": null,
+      "outputs_role": "Analysis data products"
+    },
+    "state_programs:metabolism": {
+      "module": "tilapia.state_programs",
+      "task": "metabolism",
+      "required_inputs": [
+        "atlas_h5ad",
+        "matched_kegg_results",
+        "eggnog_bridge",
+        "gene_annotation"
+      ],
+      "methods": [
+        "2.7"
+      ],
+      "default_profile": null,
+      "outputs_role": "Analysis data products"
+    },
+    "state_programs:respiratory": {
+      "module": "tilapia.state_programs",
+      "task": "respiratory",
+      "required_inputs": [
+        "metabolic_results",
+        "matched_kegg_results",
+        "gene_annotation"
+      ],
+      "methods": [
+        "2.7"
+      ],
+      "default_profile": null,
+      "outputs_role": "Analysis data products"
+    },
+    "state_programs:cross-cell": {
+      "module": "tilapia.state_programs",
+      "task": "cross-cell",
+      "required_inputs": [
+        "atlas_h5ad",
+        "atlas_group_counts",
+        "atlas_group_metadata",
+        "apc_fit_metadata",
+        "eggnog_bridge",
+        "gene_annotation",
+        "fixed_module_membership"
+      ],
+      "methods": [
+        "2.7"
+      ],
+      "default_profile": null,
+      "outputs_role": "Analysis data products"
+    },
+    "state_programs:route-evidence": {
+      "module": "tilapia.state_programs",
+      "task": "route-evidence",
+      "required_inputs": [
+        "atlas_group_counts",
+        "atlas_group_metadata",
+        "gene_annotation",
+        "matched_kegg_results",
+        "de_results",
+        "immune_leading_edge_audit",
+        "fixed_module_stage_contrasts",
+        "apc_de_results",
+        "apc_state_coverage_and_candidate_expression",
+        "cross_cell_size_factors",
+        "fixed_module_membership"
+      ],
+      "methods": [
+        "2.6",
+        "2.7"
+      ],
+      "default_profile": null,
+      "outputs_role": "Analysis data products"
+    },
+    "state_programs:state-robustness": {
+      "module": "tilapia.state_programs",
+      "task": "state-robustness",
+      "required_inputs": [
+        "atlas_h5ad"
+      ],
+      "methods": [
+        "2.4"
+      ],
+      "default_profile": null,
+      "outputs_role": "Analysis data products"
+    },
+    "regulatory:tf-activity": {
+      "module": "tilapia.regulatory",
+      "task": "tf-activity",
+      "required_inputs": [
+        "atlas_h5ad",
+        "collectri_human",
+        "strict_orthology",
+        "de_results"
+      ],
+      "methods": [
+        "2.8"
+      ],
+      "default_profile": null,
+      "outputs_role": "Analysis data products"
+    },
+    "regulatory:tf-specificity": {
+      "module": "tilapia.regulatory",
+      "task": "tf-specificity",
+      "required_inputs": [
+        "state_pool_counts",
+        "state_pool_weights",
+        "tf_network",
+        "collectri_human",
+        "strict_orthology",
+        "baseline_state_tf",
+        "baseline_tf_activity",
+        "de_results",
+        "recovered_geneid_audit",
+        "loc_conflicts",
+        "geneid_disagreements"
+      ],
+      "methods": [
+        "2.8"
+      ],
+      "default_profile": null,
+      "outputs_role": "Analysis data products"
+    },
+    "regulatory:orthology": {
+      "module": "tilapia.regulatory",
+      "task": "orthology",
+      "required_inputs": [
+        "ncbi_gene_orthologs",
+        "human_gene_info",
+        "eggnog_bridge"
+      ],
+      "methods": [
+        "2.8"
+      ],
+      "default_profile": null,
+      "outputs_role": "Analysis data products"
+    },
+    "regulatory:identity": {
+      "module": "tilapia.regulatory",
+      "task": "identity",
+      "required_inputs": [
+        "atlas_h5ad",
+        "gene_annotation"
+      ],
+      "methods": [
+        "2.6",
+        "2.8"
+      ],
+      "default_profile": null,
+      "outputs_role": "Analysis data products"
+    },
+    "regulatory:motif": {
+      "module": "tilapia.regulatory",
+      "task": "motif",
+      "required_inputs": [
+        "genome_fasta",
+        "gene_annotation",
+        "tf_network",
+        "ionocyte_late_de",
+        "motif_klf4",
+        "motif_myb",
+        "motif_nfkb1",
+        "motif_rela",
+        "motif_sox4",
+        "motif_rbpj"
+      ],
+      "methods": [
+        "2.8"
+      ],
+      "default_profile": null,
+      "outputs_role": "Analysis data products"
+    },
+    "qpcr:recompute": {
+      "module": "tilapia.qpcr",
+      "task": "recompute",
+      "required_inputs": [
+        "recorded_wells",
+        "scrna_frozen_comparator"
+      ],
+      "methods": [
+        "2.9"
+      ],
+      "default_profile": null,
+      "outputs_role": "Analysis data products"
+    },
+    "mortality:mortality": {
+      "module": "tilapia.mortality",
+      "task": "mortality",
+      "required_inputs": [
+        "salinity_original_seven_group_records"
+      ],
+      "methods": [
+        "2.1"
+      ],
+      "default_profile": null,
+      "outputs_role": "Analysis data products"
+    }
+  },
+  "historical_analysis_pins": {
+    "numpy": "2.4.6",
+    "pandas": "2.3.3",
+    "scipy": "1.18.0",
+    "matplotlib": "3.11.1",
+    "pillow": "12.3.0",
+    "statsmodels": "0.14.6",
+    "anndata": "0.12.16",
+    "scanpy": "1.12.1",
+    "h5py": "3.16.0",
+    "pydeseq2": "0.5.4",
+    "gseapy": "1.3.1",
+    "harmonypy": "0.0.10",
+    "leidenalg": "0.12.0",
+    "igraph": "1.0.0",
+    "decoupler": "2.2.0",
+    "scikit-learn": "1.9.0",
+    "scikit-misc": "0.5.2",
+    "scikit-image": "0.26.0",
+    "seaborn": "0.13.2",
+    "networkx": "3.6.1",
+    "biopython": "1.88",
+    "threadpoolctl": "3.6.0"
+  },
+  "motif_resource_identity": [
+    {
+      "input_key": "motif_klf4",
+      "filename": "JASPAR_MA0039.5_KLF4.json",
+      "matrix_id": "MA0039.5",
+      "name": "KLF4",
+      "sha256": "8aae335df18830b5e201edf92393e209aa91888f76db1e9fb2ce38a6ee500deb",
+      "bytes": 875
+    },
+    {
+      "input_key": "motif_myb",
+      "filename": "JASPAR_MA0100.4_MYB.json",
+      "matrix_id": "MA0100.4",
+      "name": "MYB",
+      "sha256": "3353e0b2c3b1a2ae66d9550ab4e7164bb99db5cf1c4ab93aa8224bb3f3870654",
+      "bytes": 783
+    },
+    {
+      "input_key": "motif_nfkb1",
+      "filename": "JASPAR_MA0105.4_NFKB1.json",
+      "matrix_id": "MA0105.4",
+      "name": "NFKB1",
+      "sha256": "a9b2e8b5cc2775baf27f6852e50ae076a0d05c7e9e6f9f057fa5d60a9221e73a",
+      "bytes": 1256
+    },
+    {
+      "input_key": "motif_rbpj",
+      "filename": "JASPAR_MA1116.2_RBPJ.json",
+      "matrix_id": "MA1116.2",
+      "name": "RBPJ",
+      "sha256": "46ebf51e134e140ddba1636bf4e085fcf03dd08a17136bac53f93ff73b1c2910",
+      "bytes": 795
+    },
+    {
+      "input_key": "motif_rela",
+      "filename": "JASPAR_MA0107.1_RELA.json",
+      "matrix_id": "MA0107.1",
+      "name": "RELA",
+      "sha256": "4da203c91e57c08a25c82034a630c5968a5641d357e6bc188fe9b09b01fa5db7",
+      "bytes": 1146
+    },
+    {
+      "input_key": "motif_sox4",
+      "filename": "JASPAR_MA0867.3_SOX4.json",
+      "matrix_id": "MA0867.3",
+      "name": "SOX4",
+      "sha256": "cf3dcc8affb3da7d6966155e2d5afd3671da74fec6338a998375b06d2e7ce788",
+      "bytes": 833
+    }
+  ],
+  "source_index": "results/analysis_results.h5"
+}

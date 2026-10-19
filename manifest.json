@@ -1,0 +1,216 @@
+{
+  "schema_version": 1,
+  "scope": "Scientific analysis code, inputs and recorded results for the tilapia gill study.",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 72,
+      "sha256": "4eddb5ea3a2e7861367311e946afb09c2555be7df9b222830a3fa254a1a01200"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 74,
+      "sha256": "f1fb85e5695d97ff4c4dcbf4cdb3560e40dffc94fe479a7448cae172ce877106"
+    },
+    {
+      "path": "analysis.py",
+      "bytes": 15639,
+      "sha256": "41fa840639bf25ed1d22b3751d9a6d6c749def53a3154d20a4bfd37089a8dc22"
+    },
+    {
+      "path": "config.json",
+      "bytes": 99131,
+      "sha256": "696ae64af19a22eb301b0c644cb69e5cf1c9373101a73eca9cb440b127adb81a"
+    },
+    {
+      "path": "inputs/all_immune_GSEA_leading_edge_audit.tsv.gz",
+      "bytes": 2650058,
+      "sha256": "480d9a6d9c0198ea117722366cd71bb112eee6b1118c66cb7a54b78c0d729616"
+    },
+    {
+      "path": "inputs/collectri_human_remove_complexes.tsv.gz",
+      "bytes": 555274,
+      "sha256": "e9f8612d4632ca1ae84648dbf7a1c046ba574127ebe5c689d86bf27fec4ce443"
+    },
+    {
+      "path": "inputs/composition_broad_by_pool.tsv",
+      "bytes": 4573,
+      "sha256": "559ed3ff428b4d9c3d29b0c9abec152fbb97e0a8c252cba470192c1465183f44"
+    },
+    {
+      "path": "inputs/current_atlas_84_group_metadata.tsv",
+      "bytes": 3497,
+      "sha256": "fd954270a569a92b0e08fc0c0d71c275963afb7b798736cae43a373dd583cd88"
+    },
+    {
+      "path": "inputs/current_atlas_84_group_raw_counts.npz",
+      "bytes": 6621530,
+      "sha256": "426c11ba0f76ab7e4de9c73899e57d97c581d356fe5145a4d344a730a924ef3f"
+    },
+    {
+      "path": "inputs/GCF_001858045.2_RS_2025_06_gene_annotation.tsv",
+      "bytes": 5774568,
+      "sha256": "6f88756e3d260016e0cb420d00543f9f848a511d61e6685a98ad472051495a21"
+    },
+    {
+      "path": "inputs/GCF_001858045.2_RS_2025_06_gene_annotation_summary.json",
+      "bytes": 767,
+      "sha256": "14bb9409d7834f3d0e04603b3ef7e370506777744d510df6d7e73598c201f1d8"
+    },
+    {
+      "path": "inputs/gconvert_entrezgene_acc_query.json",
+      "bytes": 414199,
+      "sha256": "edfba2592121c6a6f9fe0ec17c21afabb026c5d12152abafc6f19c639ddb6f72"
+    },
+    {
+      "path": "inputs/gconvert_entrezgene_acc_response.json.gz",
+      "bytes": 689103,
+      "sha256": "13f8824c437624b1d3b97a00727df7ff4d89a3968aab175416cecb4c78cd7fc7"
+    },
+    {
+      "path": "inputs/gprofiler_union_query.json",
+      "bytes": 414404,
+      "sha256": "8ba72bdaab3388be9dc96dba09355ecdaa035b7ce4b800817efbfd9cdc748889"
+    },
+    {
+      "path": "inputs/gprofiler_union_response.json.gz",
+      "bytes": 414477,
+      "sha256": "a336f975e3059783d389c74ec77623c0aa2347c8ec1a99b152805ec1695d29d1"
+    },
+    {
+      "path": "inputs/Homo_sapiens.gene_info_2026-08-19.gz",
+      "bytes": 5179376,
+      "sha256": "0d7e7e45d449e8d725a4e52fb108034b97a884bbf9df71af906f4577353ef508"
+    },
+    {
+      "path": "inputs/ionocyte_state_composition_by_pool.tsv",
+      "bytes": 1822,
+      "sha256": "608d3dae93d335bd000c4b518b993f1e57fff3f17ab3a8bd80f614528f169443"
+    },
+    {
+      "path": "inputs/JASPAR_MA0039.5_KLF4.json",
+      "bytes": 875,
+      "sha256": "8aae335df18830b5e201edf92393e209aa91888f76db1e9fb2ce38a6ee500deb"
+    },
+    {
+      "path": "inputs/JASPAR_MA0100.4_MYB.json",
+      "bytes": 783,
+      "sha256": "3353e0b2c3b1a2ae66d9550ab4e7164bb99db5cf1c4ab93aa8224bb3f3870654"
+    },
+    {
+      "path": "inputs/JASPAR_MA0105.4_NFKB1.json",
+      "bytes": 1256,
+      "sha256": "a9b2e8b5cc2775baf27f6852e50ae076a0d05c7e9e6f9f057fa5d60a9221e73a"
+    },
+    {
+      "path": "inputs/JASPAR_MA0107.1_RELA.json",
+      "bytes": 1146,
+      "sha256": "4da203c91e57c08a25c82034a630c5968a5641d357e6bc188fe9b09b01fa5db7"
+    },
+    {
+      "path": "inputs/JASPAR_MA0867.3_SOX4.json",
+      "bytes": 833,
+      "sha256": "cf3dcc8affb3da7d6966155e2d5afd3671da74fec6338a998375b06d2e7ce788"
+    },
+    {
+      "path": "inputs/JASPAR_MA1116.2_RBPJ.json",
+      "bytes": 795,
+      "sha256": "46ebf51e134e140ddba1636bf4e085fcf03dd08a17136bac53f93ff73b1c2910"
+    },
+    {
+      "path": "inputs/pavement_state_marker_summary.tsv",
+      "bytes": 7510,
+      "sha256": "3c9607e22c9d5dff767e000e5103b10ee898d90da502697040e4e7260423da47"
+    },
+    {
+      "path": "inputs/recorded_wells.tsv",
+      "bytes": 48683,
+      "sha256": "a87f4816695708e59ecced4c5f71515742caad12e39faf067432573fc158aca7"
+    },
+    {
+      "path": "inputs/scrna_frozen_comparator.tsv",
+      "bytes": 5123,
+      "sha256": "aa8260af7a0b95844c63d8b7904eefacd119babba6ef621da4b10edbe7815799"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5956,
+      "sha256": "6bb957fce99418ba344550df5bc52b5397d4c19962660081b8d3cd20e933e98e"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 517,
+      "sha256": "31b3671c62f3038dd7a69dacbe042f6d8f3695c623d684e680d6a63d11f37dc3"
+    },
+    {
+      "path": "results/analysis_results.h5",
+      "bytes": 132620080,
+      "sha256": "ec87160138463d2213419ec4bc7aa032c02f4bd25dce925de01032e3f8efafcb"
+    },
+    {
+      "path": "src/tilapia/__init__.py",
+      "bytes": 79,
+      "sha256": "4b21b7373c8a2fd73277fdbadb8597026e870d5f9d6d9fe534a96acab8a47b11"
+    },
+    {
+      "path": "src/tilapia/atlas.py",
+      "bytes": 29349,
+      "sha256": "e01eca05defb82a1c1691b3e8813b1629f18d9d3e524948aaee96f2932df07e7"
+    },
+    {
+      "path": "src/tilapia/counts_qc.py",
+      "bytes": 32560,
+      "sha256": "ab29b501d1fed276b43c8d07a26a9ff75bfa1bb7720b0f9c8ff30f3f8d5c8408"
+    },
+    {
+      "path": "src/tilapia/enrichment.py",
+      "bytes": 75544,
+      "sha256": "c3b5b82c511fa7d8c35890af7a3a5f6e85054834ba939838202b65d1db90eab2"
+    },
+    {
+      "path": "src/tilapia/gene_identity.py",
+      "bytes": 9082,
+      "sha256": "45ace39180a2c809ecebf9cc5e38c7a95529bcb82520295bff72092fa8372896"
+    },
+    {
+      "path": "src/tilapia/mortality.py",
+      "bytes": 16090,
+      "sha256": "7b4e22898137ef15697b9d10be2cf49f542e9212ded4941b5f5b6292c62bc71c"
+    },
+    {
+      "path": "src/tilapia/motif.py",
+      "bytes": 13638,
+      "sha256": "60eec10cb7ad6678f12a58d791606caaf5fa2839548d11983e4a143b203d0ec1"
+    },
+    {
+      "path": "src/tilapia/pseudobulk.py",
+      "bytes": 23966,
+      "sha256": "9ae8efb61b16b31c3c53bee27fc15ace75d0228bb12e9b99d47d97e8f7304de6"
+    },
+    {
+      "path": "src/tilapia/qpcr.py",
+      "bytes": 14016,
+      "sha256": "606f854ba9f0615a443f14446e16e1a121922e15d784644b6c19f89b949f2350"
+    },
+    {
+      "path": "src/tilapia/regulatory.py",
+      "bytes": 61230,
+      "sha256": "21d10feea66fa475891f37705f536d3b9a2573677b619ba1a807e1d4d386a8a3"
+    },
+    {
+      "path": "src/tilapia/runtime.py",
+      "bytes": 27838,
+      "sha256": "01668949098b2519ebc44f86bd60fde0b7470a1b6b1b210271cab51f8a9163f1"
+    },
+    {
+      "path": "src/tilapia/state_programs.py",
+      "bytes": 73320,
+      "sha256": "19acad850d05b2070ad76eed21646ed31233d4f159015ee00adcfe08901249d9"
+    },
+    {
+      "path": "src/tilapia/state_robustness.py",
+      "bytes": 28108,
+      "sha256": "27f9917ab2ae2b5f12320a7edc4f4f56d2cf2b23d56ba294409483f14e94e10a"
+    }
+  ]
+}

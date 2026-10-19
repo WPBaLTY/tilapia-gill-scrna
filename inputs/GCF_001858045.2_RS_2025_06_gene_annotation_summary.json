@@ -1,0 +1,28 @@
+{
+  "gff_path": "external/references/GCF_001858045.2_O_niloticus_UMD_NMBU_genomic.gff.gz",
+  "gff_sha256": "d90907dd21fd474d279e8e9dfa033d50be298f8525f8a7155acb1ce5bf54d53b",
+  "mitochondrial_accession": "NC_013663.1",
+  "gene_records": 42644,
+  "gff_feature_type_counts": {
+    "gene": 41966,
+    "pseudogene": 678
+  },
+  "unique_gene_symbols": 40722,
+  "ambiguous_gene_symbols": 47,
+  "mitochondrial_gene_records": 37,
+  "mitochondrial_gene_symbols": 37,
+  "biotype_counts": {
+    "protein_coding": 29562,
+    "lncRNA": 8695,
+    "tRNA": 1992,
+    "pseudogene": 676,
+    "rRNA": 659,
+    "snRNA": 439,
+    "V_segment": 293,
+    "snoRNA": 179,
+    "misc_RNA": 81,
+    "C_region": 59,
+    "ncRNA": 7,
+    "transcribed_pseudogene": 2
+  }
+}

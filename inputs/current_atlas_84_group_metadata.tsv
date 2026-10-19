@@ -1,0 +1,85 @@
+cell_type	pool	n_cells	total_UMI	stage	sequencing_batch
+B cell	BR1	605	1783189	0	batch_1
+B cell	BR2	607	2418835	0	batch_2
+B cell	BR3	110	456160	24	batch_2
+B cell	BR4	181	764241	24	batch_1
+B cell	BR5	291	1165452	96	batch_1
+B cell	BR6	314	1325750	96	batch_2
+T cell	BR1	1893	4582017	0	batch_1
+T cell	BR2	1964	5119012	0	batch_2
+T cell	BR3	587	1187391	24	batch_2
+T cell	BR4	877	1869272	24	batch_1
+T cell	BR5	1723	4046413	96	batch_1
+T cell	BR6	1665	4201847	96	batch_2
+basal epithelial	BR1	245	1197406	0	batch_1
+basal epithelial	BR2	257	1392922	0	batch_2
+basal epithelial	BR3	339	1667790	24	batch_2
+basal epithelial	BR4	450	2315795	24	batch_1
+basal epithelial	BR5	524	2974132	96	batch_1
+basal epithelial	BR6	936	5822497	96	batch_2
+chondrocyte	BR1	379	2952322	0	batch_1
+chondrocyte	BR2	346	3122427	0	batch_2
+chondrocyte	BR3	5	101375	24	batch_2
+chondrocyte	BR4	461	3540639	24	batch_1
+chondrocyte	BR5	389	2914375	96	batch_1
+chondrocyte	BR6	640	4590122	96	batch_2
+cycling T cell	BR1	400	2531973	0	batch_1
+cycling T cell	BR2	381	2866774	0	batch_2
+cycling T cell	BR3	49	368141	24	batch_2
+cycling T cell	BR4	58	489856	24	batch_1
+cycling T cell	BR5	226	1990604	96	batch_1
+cycling T cell	BR6	382	3222607	96	batch_2
+cycling non-immune	BR1	147	1497504	0	batch_1
+cycling non-immune	BR2	156	1590627	0	batch_2
+cycling non-immune	BR3	31	598029	24	batch_2
+cycling non-immune	BR4	45	645811	24	batch_1
+cycling non-immune	BR5	396	6690312	96	batch_1
+cycling non-immune	BR6	514	7497597	96	batch_2
+dendritic/APC-like	BR1	1104	4673430	0	batch_1
+dendritic/APC-like	BR2	1229	5918018	0	batch_2
+dendritic/APC-like	BR3	310	1341330	24	batch_2
+dendritic/APC-like	BR4	400	1667514	24	batch_1
+dendritic/APC-like	BR5	435	2273322	96	batch_1
+dendritic/APC-like	BR6	786	3839042	96	batch_2
+fibroblast	BR1	601	2233757	0	batch_1
+fibroblast	BR2	903	3785025	0	batch_2
+fibroblast	BR3	341	1049072	24	batch_2
+fibroblast	BR4	752	2678968	24	batch_1
+fibroblast	BR5	624	2840305	96	batch_1
+fibroblast	BR6	1382	6277503	96	batch_2
+granulocyte	BR1	692	2566924	0	batch_1
+granulocyte	BR2	962	3703073	0	batch_2
+granulocyte	BR3	604	4616946	24	batch_2
+granulocyte	BR4	812	5262326	24	batch_1
+granulocyte	BR5	681	3392810	96	batch_1
+granulocyte	BR6	818	5092638	96	batch_2
+ionocyte	BR1	287	2793218	0	batch_1
+ionocyte	BR2	201	1878031	0	batch_2
+ionocyte	BR3	607	10360061	24	batch_2
+ionocyte	BR4	545	6944595	24	batch_1
+ionocyte	BR5	644	8284251	96	batch_1
+ionocyte	BR6	1601	19004674	96	batch_2
+macrophage	BR1	732	5679648	0	batch_1
+macrophage	BR2	1020	8734689	0	batch_2
+macrophage	BR3	560	5756412	24	batch_2
+macrophage	BR4	718	6726335	24	batch_1
+macrophage	BR5	703	7279153	96	batch_1
+macrophage	BR6	1507	14083900	96	batch_2
+mucous/goblet	BR1	87	520878	0	batch_1
+mucous/goblet	BR2	101	618330	0	batch_2
+mucous/goblet	BR3	33	342886	24	batch_2
+mucous/goblet	BR4	49	314001	24	batch_1
+mucous/goblet	BR5	183	1791261	96	batch_1
+mucous/goblet	BR6	214	1872911	96	batch_2
+pavement cell	BR1	4948	30812877	0	batch_1
+pavement cell	BR2	3874	25854968	0	batch_2
+pavement cell	BR3	8269	80848699	24	batch_2
+pavement cell	BR4	7068	58420468	24	batch_1
+pavement cell	BR5	7036	66743215	96	batch_1
+pavement cell	BR6	11266	97276723	96	batch_2
+vascular-associated	BR1	76	221289	0	batch_1
+vascular-associated	BR2	75	249225	0	batch_2
+vascular-associated	BR3	61	328066	24	batch_2
+vascular-associated	BR4	48	230807	24	batch_1
+vascular-associated	BR5	31	155975	96	batch_1
+vascular-associated	BR6	90	599556	96	batch_2
